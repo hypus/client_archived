@@ -9,27 +9,27 @@ import Page from '@/Page';
 import { withApollo } from '../src/utils/apollo';
 
 const POSTS = gql`
-{
-  allPosts(first:10) {
-    title
+  {
+    allPosts(first: 10) {
+      title
+    }
   }
-}
 `;
 
 function Home() {
   const { data, loading, error } = useQuery(POSTS);
 
   if (loading) return <p>LOADING!!</p>;
-  if (error) return <p style={{ color: 'red' }}>{error.message}</p>
+  if (error) return <p style={{ color: 'red' }}>{error.message}</p>;
 
   return (
     <Page>
-      <Helmet
-        title="Welcome to Home"
-      />
+      <Helmet title="Welcome to Home" />
       <Nav />
       <ul>
-        {data.allPosts.map((item, index) => <li key={index}>{item.title}</li>)}
+        {data.allPosts.map((item, index) => (
+          <li key={index.toString()}>{item.title}</li>
+        ))}
       </ul>
     </Page>
   );
