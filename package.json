@@ -21,7 +21,8 @@
     "graphql-tag": "^2.10.3",
     "next": "latest",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-helmet": "^6.0.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.6",

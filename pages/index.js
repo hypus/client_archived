@@ -2,6 +2,7 @@
 import React from 'react';
 import { useQuery } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
+import { Helmet } from 'react-helmet';
 
 import Nav from '@/nav';
 import Page from '@/Page';
@@ -23,6 +24,9 @@ function Home() {
 
   return (
     <Page>
+      <Helmet
+        title="Welcome to Home"
+      />
       <Nav />
       <ul>
         {data.allPosts.map((item, index) => <li key={index}>{item.title}</li>)}
