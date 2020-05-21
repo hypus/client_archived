@@ -1,11 +1,10 @@
 // @flow
 import React from 'react'
 
-import Nav from '../components/nav'
-import Page from '../components/Page'
+import Nav from '@/nav';
+import Page from '@/Page';
 
 export default function Home() {
-  console.log(process.env.TEST_VAR)
   return (
     <Page>
       <Nav />

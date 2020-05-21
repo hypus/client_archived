@@ -1,8 +1,14 @@
 {
-    "presets": [
-        "next/babel"
-    ],
-    "plugins": [
-        "transform-flow-strip-types"
+  "presets": ["next/babel"],
+  "plugins": [
+    "transform-flow-strip-types",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@": "./components"
+        }
+      }
     ]
+  ]
 }
