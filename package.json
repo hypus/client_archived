@@ -1,0 +1,25 @@
+{
+  "name": "with-flow",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Jag Reehal",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "flow": "flow",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.6",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "flow-bin": "0.77.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.0"
+  }
+}
