@@ -4,7 +4,7 @@ import { useQuery } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
 import { Helmet } from 'react-helmet';
 
-import Nav from '@/nav';
+import Nav from '@/Nav';
 import Page from '@/Page';
 import { withApollo } from '../src/utils/apollo';
 

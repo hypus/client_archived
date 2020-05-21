@@ -2,7 +2,10 @@
 .*/node_modules/*
 
 [include]
+./components/
 
 [libs]
 
 [options]
+
+module.name_mapper='^@\(.*\)$' -> '<PROJECT_ROOT>/components/\1'
