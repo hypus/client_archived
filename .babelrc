@@ -3,6 +3,9 @@
   "plugins": [
     "transform-flow-strip-types",
     [
+      "graphql-tag"
+    ],
+    [
       "module-resolver",
       {
         "alias": {

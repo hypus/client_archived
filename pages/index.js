@@ -1,14 +1,34 @@
 // @flow
-import React from 'react'
+import React from 'react';
+import { useQuery } from '@apollo/react-hooks';
+import gql from 'graphql-tag';
 
 import Nav from '@/nav';
 import Page from '@/Page';
+import { withApollo } from '../src/utils/apollo';
 
-export default function Home() {
+const POSTS = gql`
+{
+  allPosts(first:10) {
+    title
+  }
+}
+`;
+
+function Home() {
+  const { data, loading, error } = useQuery(POSTS);
+
+  if (loading) return <p>LOADING!!</p>;
+  if (error) return <p style={{ color: 'red' }}>{error.message}</p>
+
   return (
     <Page>
       <Nav />
-      <h2 className="">Hello World</h2>
+      <ul>
+        {data.allPosts.map((item, index) => <li key={index}>{item.title}</li>)}
+      </ul>
     </Page>
   );
 }
+
+export default withApollo()(Home);
