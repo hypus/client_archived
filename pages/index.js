@@ -26,11 +26,13 @@ function Home() {
     <Page>
       <Helmet title="Welcome to Home" />
       <Nav />
-      <ul>
-        {data.allPosts.map((item, index) => (
-          <li key={index.toString()}>{item.title}</li>
-        ))}
-      </ul>
+      <div className='flex'>
+        <ul>
+          {data.allPosts.map((item, index) => (
+            <li key={index.toString()} className='mb-25'>{item.title}</li>
+          ))}
+        </ul>
+      </div>
     </Page>
   );
 }

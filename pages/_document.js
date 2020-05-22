@@ -28,7 +28,7 @@ class HypusDocument extends Document {
         <Head>
           {this.helmetHeadComponents}
         </Head>
-        <body {...this.helmetBodyAttrComponents}>
+        <body className="font-body" {...this.helmetBodyAttrComponents}>
           <Main />
           <NextScript />
         </body>
