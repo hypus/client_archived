@@ -25,9 +25,7 @@ class HypusDocument extends Document {
   render() {
     return (
       <html {...this.helmetHtmlAttrComponents} lang="en">
-        <Head>
-          {this.helmetHeadComponents}
-        </Head>
+        <Head>{this.helmetHeadComponents}</Head>
         <body className="font-body" {...this.helmetBodyAttrComponents}>
           <Main />
           <NextScript />

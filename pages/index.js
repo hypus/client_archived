@@ -29,7 +29,9 @@ function Home() {
       <div className="flex">
         <ul>
           {data.allPosts.map((item, index) => (
-            <li key={index.toString()} className="mb-3 bg-primary">{item.title}</li>
+            <li key={index.toString()} className="mb-3 bg-primary-hover">
+              {item.title}
+            </li>
           ))}
         </ul>
       </div>
