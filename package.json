@@ -13,6 +13,12 @@
     "build-storybook": "build-storybook",
     "format": "eslint src pages --fix && prettier src pages --write"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint src pages --fix && prettier src pages --write",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "@apollo/react-ssr": "^3.1.5",
@@ -30,6 +36,8 @@
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
