@@ -9,6 +9,7 @@ const borderWidth = {
   2: '2px',
 };
 const colors = {
+  white: '#FFFFFF',
   primary: {
     default: '#0B69FF',
     focus: '#0055DC',

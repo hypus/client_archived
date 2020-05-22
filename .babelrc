@@ -2,16 +2,15 @@
   "presets": ["next/babel"],
   "plugins": [
     "transform-flow-strip-types",
-    [
-      "graphql-tag"
-    ],
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "@": "./components"
-        }
+    ["graphql-tag"],
+    ["module-resolver", {
+      "alias": {
+        "@/common": "./src/components/common",
+        "@/ui": "./src/components/ui",
+        "@/partials": "./src/components/partials",
+        "@/layout": "./src/components/layout",
+        "@": "./src"
       }
-    ]
+    }]
   ]
 }

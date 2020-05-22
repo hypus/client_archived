@@ -4,9 +4,7 @@ import { useQuery } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
 import { Helmet } from 'react-helmet';
 
-import Nav from '@/Nav';
-import Page from '@/Page';
-import { withApollo } from '../src/utils/apollo';
+import { withApollo } from '@/utils/apollo';
 
 const POSTS = gql`
   {
@@ -23,19 +21,18 @@ function Home() {
   if (error) return <p style={{ color: 'red' }}>{error.message}</p>;
 
   return (
-    <Page>
+    <>
       <Helmet title="Welcome to Home" />
-      <Nav />
       <div className="flex">
         <ul>
           {data.allPosts.map((item, index) => (
-            <li key={index.toString()} className="mb-3 bg-primary-hover">
+            <li key={index.toString()} className="mb-3 bg-primary-hover text-white p-2">
               {item.title}
             </li>
           ))}
         </ul>
       </div>
-    </Page>
+    </>
   );
 }
 

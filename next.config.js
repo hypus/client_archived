@@ -1,6 +1,7 @@
 require('dotenv').config();
+
 module.exports = {
   env: {
-    TEST_VAR: process.env.TEST_VAR,
+    GRAPHQL_DEV_URI: process.env.GRAPHQL_DEV_URI,
   },
 };
