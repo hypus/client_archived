@@ -26,7 +26,7 @@ function Home() {
     <Page>
       <Helmet title="Welcome to Home" />
       <Nav />
-      <div className='flex'>
+      <div className="flex">
         <ul>
           {data.allPosts.map((item, index) => (
             <li key={index.toString()} className="mb-3 bg-primary">{item.title}</li>
