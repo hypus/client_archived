@@ -7,7 +7,7 @@ const propTypes = {};
 const defaultProps = {};
 
 function Logo() {
-  return <div>Logo</div>;
+  return <div>Logo Content</div>;
 }
 
 Logo.propTypes = propTypes;
