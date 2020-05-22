@@ -8,8 +8,8 @@
 
 [options]
 
-module.name_mapper='^@common\(.*\)$' -> '<PROJECT_ROOT>/src/components/common/\1'
-module.name_mapper='^@ui\(.*\)$' -> '<PROJECT_ROOT>/src/components/ui/\1'
-module.name_mapper='^@partials\(.*\)$' -> '<PROJECT_ROOT>/src/components/partials/\1'
-module.name_mapper='^@layout\(.*\)$' -> '<PROJECT_ROOT>/src/components/layout/\1'
+module.name_mapper='^@/common\(.*\)$' -> '<PROJECT_ROOT>/src/components/common/\1'
+module.name_mapper='^@/ui\(.*\)$' -> '<PROJECT_ROOT>/src/components/ui/\1'
+module.name_mapper='^@/partials\(.*\)$' -> '<PROJECT_ROOT>/src/components/partials/\1'
+module.name_mapper='^@/layout\(.*\)$' -> '<PROJECT_ROOT>/src/components/layout/\1'
 module.name_mapper='^@\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
