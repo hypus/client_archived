@@ -8,9 +8,9 @@ function Home() {
   return (
     <>
       <Helmet title="Welcome to Home" />
-      <div>
-        <Button outline to="/submit">
-          test
+      <div className="m-8">
+        <Button loading icon={{ position: 'right', name: 'Plus' }} block variant="primary" outline>
+          PRIMARY BUTTON
         </Button>
       </div>
     </>

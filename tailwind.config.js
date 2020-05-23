@@ -15,6 +15,11 @@ const colors = {
     focus: '#0055DC',
     hover: '#0058E3',
   },
+  light: {
+    default: '#D7DFE9',
+    focus: '#c0c8d1',
+    hover: '#c0c8d1',
+  },
   grey: {
     100: '#7E858E',
     50: 'rgba(126, 133, 142, .5)',
@@ -74,12 +79,16 @@ const spacing = {
   24: '6rem',
   25: '6.25rem',
 };
+const cursor = {
+  'no-drop': 'no-drop',
+};
 
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     fontFamily,
     borderWidth,
+    cursor,
     extend: {
       colors,
       spacing,

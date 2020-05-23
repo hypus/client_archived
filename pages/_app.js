@@ -1,14 +1,21 @@
+// @flow
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import '../styles/index.css';
 
-function MyApp({ Component, pageProps }) {
+type Props = {
+  Component: any,
+  pageProps: any,
+};
+
+function HypusApp({ Component, pageProps }: Props) {
   return <Component {...pageProps} />;
 }
 
-MyApp.propTypes = {
-  Component: PropTypes.node,
+HypusApp.propTypes = {
+  Component: PropTypes.any,
   pageProps: PropTypes.object,
 };
 
-export default MyApp;
+export default HypusApp;
