@@ -61,6 +61,9 @@ function Button({
    * 2 - focus
    * 3 - variant-based
    */
+  const buttonContainerClasses = cls(block ? 'block' : 'inline-block', {
+    'cursor-no-drop select-none': disabled,
+  });
   const buttonClasses = cls(
     'focus:outline-none font-paragraph items-center px-4 py-2 rounded text-sm', // 0
     `hover:bg-${variant}-hover`, // 1
@@ -104,7 +107,7 @@ function Button({
   }
 
   return (
-    <div className={cls(disabled && 'cursor-no-drop inline-block')}>
+    <div className={buttonContainerClasses}>
       <button className={buttonClasses} {...props}>
         {loading && (
           <div className="w-6 mr-2">
