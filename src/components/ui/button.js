@@ -79,7 +79,7 @@ function Button({
       'flex-row-reverse': (!loading && icon && icon.position) === 'right', // 0
       'hover:text-white focus:text-white': variant !== 'light', // 3
     },
-    extraClassName // 0
+    extraClassName, // 0
   );
   const iconClasses = cls({
     'ml-2': icon && icon.position === 'right',

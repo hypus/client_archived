@@ -11,11 +11,11 @@
     "build:css": "tailwindcss build styles/tailwind.css -o styles/index.css",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "format": "eslint src pages --fix && prettier src pages --write"
+    "format": "prettier src pages --write && eslint src pages --fix"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint src pages --fix && prettier src pages --write && git add .",
+      "pre-commit": "yarn format && git add .",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },

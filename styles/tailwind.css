@@ -3,6 +3,9 @@
 @tailwind base;
 @tailwind components;
 
+html, body, #__next {
+  height: 100%;
+}
 .circular {
   animation: rotate 2s linear infinite;
   transform-origin: center center;

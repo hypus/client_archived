@@ -4,4 +4,6 @@ import Logo from './logo';
 import ProjectCard from './project-card';
 import SearchInput from './search-input';
 
-export { Conversation, Icon, Logo, ProjectCard, SearchInput };
+export {
+  Conversation, Icon, Logo, ProjectCard, SearchInput,
+};

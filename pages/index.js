@@ -2,18 +2,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Button } from '@/ui';
+import { AppLayout } from '@/layout';
 
 function Home() {
   return (
-    <>
-      <Helmet title="Welcome to Home" />
-      <div className="m-8">
-        <Button loading icon={{ position: 'right', name: 'Plus' }} block variant="primary" outline>
-          PRIMARY BUTTON
-        </Button>
-      </div>
-    </>
+    <AppLayout>
+      <Helmet title="Home" />
+      body
+    </AppLayout>
   );
 }
 

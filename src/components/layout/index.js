@@ -6,4 +6,6 @@ import ProfileLayout from './profile';
 import ProjectLayout from './project';
 import SearchLayout from './search';
 
-export { AppLayout, AuthLayout, ChatLayout, DiscoverLayout, ProfileLayout, ProjectLayout, SearchLayout };
+export {
+  AppLayout, AuthLayout, ChatLayout, DiscoverLayout, ProfileLayout, ProjectLayout, SearchLayout,
+};
