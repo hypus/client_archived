@@ -2,13 +2,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import { Badge } from '@/ui';
 import { AppLayout } from '@/layout';
 
 function Home() {
   return (
     <AppLayout>
       <Helmet title="Home" />
-      body
+      <Badge type="worker">FOUNDER</Badge>
     </AppLayout>
   );
 }

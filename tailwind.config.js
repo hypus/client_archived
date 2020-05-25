@@ -10,6 +10,7 @@ const borderWidth = {
 };
 const colors = {
   white: '#FFFFFF',
+  dark: '#1E1E1E',
   primary: {
     default: '#0B69FF',
     focus: '#0055DC',
@@ -81,6 +82,7 @@ const spacing = {
 };
 const cursor = {
   'no-drop': 'no-drop',
+  pointer: 'pointer',
 };
 const borderRadius = {
   1: '0.25rem',
