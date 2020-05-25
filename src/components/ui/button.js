@@ -55,17 +55,11 @@ function Button({
   variant,
   ...props
 }: Props) {
-  /**
-   * 0 - global
-   * 1 - hover
-   * 2 - focus
-   * 3 - variant-based
-   */
   const buttonContainerClasses = cls(block ? 'block' : 'inline-block', {
     'cursor-no-drop select-none': disabled,
   });
   const buttonClasses = cls(
-    'focus:outline-none font-paragraph items-center px-4 py-2 rounded-2 text-sm cursor-pointer', // 0
+    'focus:outline-none font-paragraph items-center px-4 py-2 rounded-2 text-sm cursor-pointer',
     {
       'text-white bg-primary-200 hover:bg-primary-100 focus:bg-primary-300 focus:shadow-primary-outline':
         !outline && variant === 'primary',
@@ -75,12 +69,11 @@ function Button({
         !outline && variant === 'light',
       'border-light-200 text-light-300 hover:bg-light-200 focus:bg-light-300 focus:border-light-300 focus:text-dark hover:text-dark':
         outline && variant === 'light',
-      'opacity-25 pointer-events-none': disabled, // 0
-      'bg-transparent border': outline, // 0
-      'flex justify-center w-full': block, // 0
-      'inline-flex': !block, // 0
-      'flex-row-reverse': (!loading && icon && icon.position) === 'right', // 0
-      // 'hover:text-white focus:text-white': variant !== 'light', // 3
+      'opacity-25 pointer-events-none': disabled,
+      'bg-transparent border': outline,
+      'flex justify-center w-full': block,
+      'inline-flex': !block,
+      'flex-row-reverse': (!loading && icon && icon.position) === 'right',
     },
     extraClassName, // 0
   );
