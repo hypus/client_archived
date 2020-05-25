@@ -1,13 +1,33 @@
 // @flow
+import cls from 'classnames';
+import PropTypes from 'prop-types';
 import React from 'react';
-// import PropTypes from 'prop-types';
 
-const propTypes = {};
+const propTypes = {
+  extraClassName: PropTypes.string,
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string,
+};
 
 const defaultProps = {};
 
-function Checkbox() {
-  return <div>Checkbox</div>;
+type Props = {
+  extraClassName: ?string,
+  id: string,
+  label: ?string,
+};
+
+function Checkbox({
+  extraClassName, id, label, ...props
+}: Props) {
+  return (
+    <div className={cls('inline-flex items-center', extraClassName)}>
+      <input type="checkbox" id={id} className="mr-2" {...props} />
+      <label htmlFor={id} className="text-light-300 text-xs font-paragraph">
+        {label}
+      </label>
+    </div>
+  );
 }
 
 Checkbox.propTypes = propTypes;

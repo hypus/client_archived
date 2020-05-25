@@ -2,7 +2,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Badge, Button } from '@/ui';
+import { Checkbox, Badge, Button } from '@/ui';
 import { AppLayout } from '@/layout';
 
 function Home() {
@@ -11,6 +11,7 @@ function Home() {
       <Helmet title="Home" />
       <Badge type="worker">FOUNDER</Badge>
       <Button variant="light">HELLO</Button>
+      <Checkbox label="This is a checkbox" id="checkbox" />
     </AppLayout>
   );
 }
