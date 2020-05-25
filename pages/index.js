@@ -3,7 +3,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import {
-  Badge, Button, Input, Password, Search,
+  Badge, Button, Input, Password, Search, Checkbox,
 } from '@/ui';
 import { AppLayout } from '@/layout';
 
@@ -26,6 +26,7 @@ function Home() {
         <Password extraClassName="mt-4" id="password" label="PASSWORD" placeholder="Enter your password" />
         <Search extraClassName="mt-4" id="password" label="SEARCH" placeholder="Search" />
       </div>
+      <Checkbox label="This is a checkbox" id="checkbox" />
     </AppLayout>
   );
 }
