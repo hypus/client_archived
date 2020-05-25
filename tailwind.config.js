@@ -59,6 +59,7 @@ module.exports = {
         100: '#EEF0F3',
         200: '#D7DFE9',
         300: '#C1CBD7',
+        400: '#b2b3b5',
       },
       success: {
         100: '#26BF6A',
