@@ -23,11 +23,11 @@ function Badge({
   children, extraClassName, type, ...props
 }: Props) {
   const badgeClasses = cls(
-    'py-1 px-4 rounded-2 inline-block text-xs border',
+    'py-1 px-4 rounded-2 inline-block text-xs border bg-white',
     {
-      'bg-primary text-white': type === 'founder',
-      'bg-light-focus text-dark': type === 'member',
-      'bg-success-bg text-success border-success': type === 'worker',
+      'bg-primary-200 text-white': type === 'founder',
+      'bg-light-200-focus text-dark': type === 'member',
+      'bg-success-200-bg text-success-200 border-success-200': type === 'worker',
     },
     extraClassName,
   );

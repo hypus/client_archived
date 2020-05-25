@@ -1385,7 +1385,7 @@ html, body, #__next {
   border-color: rgba(255, 255, 255, var(--divide-opacity));
 }
 
-.divide-black > :not(template) ~ :not(template){
+.divide-dark > :not(template) ~ :not(template){
   --divide-opacity: 1;
   border-color: #1E1E1E;
   border-color: rgba(30, 30, 30, var(--divide-opacity));
@@ -1587,7 +1587,7 @@ html, body, #__next {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
-.bg-black{
+.bg-dark{
   --bg-opacity: 1;
   background-color: #1E1E1E;
   background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -1705,7 +1705,7 @@ html, body, #__next {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
-.hover\:bg-black:hover{
+.hover\:bg-dark:hover{
   --bg-opacity: 1;
   background-color: #1E1E1E;
   background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -1823,7 +1823,7 @@ html, body, #__next {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
-.focus\:bg-black:focus{
+.focus\:bg-dark:focus{
   --bg-opacity: 1;
   background-color: #1E1E1E;
   background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -2081,7 +2081,7 @@ html, body, #__next {
   border-color: rgba(255, 255, 255, var(--border-opacity));
 }
 
-.border-black{
+.border-dark{
   --border-opacity: 1;
   border-color: #1E1E1E;
   border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -2199,7 +2199,7 @@ html, body, #__next {
   border-color: rgba(255, 255, 255, var(--border-opacity));
 }
 
-.hover\:border-black:hover{
+.hover\:border-dark:hover{
   --border-opacity: 1;
   border-color: #1E1E1E;
   border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -2317,7 +2317,7 @@ html, body, #__next {
   border-color: rgba(255, 255, 255, var(--border-opacity));
 }
 
-.focus\:border-black:focus{
+.focus\:border-dark:focus{
   --border-opacity: 1;
   border-color: #1E1E1E;
   border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -6879,31 +6879,31 @@ html, body, #__next {
   color: rgba(255, 255, 255, var(--placeholder-opacity));
 }
 
-.placeholder-black::-webkit-input-placeholder{
+.placeholder-dark::-webkit-input-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.placeholder-black::-moz-placeholder{
+.placeholder-dark::-moz-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.placeholder-black:-ms-input-placeholder{
+.placeholder-dark:-ms-input-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.placeholder-black::-ms-input-placeholder{
+.placeholder-dark::-ms-input-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.placeholder-black::placeholder{
+.placeholder-dark::placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -7469,31 +7469,31 @@ html, body, #__next {
   color: rgba(255, 255, 255, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-black:focus::-webkit-input-placeholder{
+.focus\:placeholder-dark:focus::-webkit-input-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-black:focus::-moz-placeholder{
+.focus\:placeholder-dark:focus::-moz-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-black:focus:-ms-input-placeholder{
+.focus\:placeholder-dark:focus:-ms-input-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-black:focus::-ms-input-placeholder{
+.focus\:placeholder-dark:focus::-ms-input-placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-black:focus::placeholder{
+.focus\:placeholder-dark:focus::placeholder{
   --placeholder-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -8340,124 +8340,28 @@ html, body, #__next {
   resize: both;
 }
 
-.shadow-xs{
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+.shadow-primary-outline{
+  box-shadow: 0px 0px 0px 2px #0071F4;
 }
 
-.shadow-sm{
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+.shadow-light-outline{
+  box-shadow: 0px 0px 0px 2px #D7DFE9;
 }
 
-.shadow{
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+.hover\:shadow-primary-outline:hover{
+  box-shadow: 0px 0px 0px 2px #0071F4;
 }
 
-.shadow-md{
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+.hover\:shadow-light-outline:hover{
+  box-shadow: 0px 0px 0px 2px #D7DFE9;
 }
 
-.shadow-lg{
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+.focus\:shadow-primary-outline:focus{
+  box-shadow: 0px 0px 0px 2px #0071F4;
 }
 
-.shadow-xl{
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.shadow-2xl{
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-}
-
-.shadow-inner{
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.shadow-outline{
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-}
-
-.shadow-none{
-  box-shadow: none;
-}
-
-.hover\:shadow-xs:hover{
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-}
-
-.hover\:shadow-sm:hover{
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.hover\:shadow:hover{
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-}
-
-.hover\:shadow-md:hover{
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.hover\:shadow-lg:hover{
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.hover\:shadow-xl:hover{
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.hover\:shadow-2xl:hover{
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-}
-
-.hover\:shadow-inner:hover{
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.hover\:shadow-outline:hover{
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-}
-
-.hover\:shadow-none:hover{
-  box-shadow: none;
-}
-
-.focus\:shadow-xs:focus{
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-}
-
-.focus\:shadow-sm:focus{
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.focus\:shadow:focus{
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-}
-
-.focus\:shadow-md:focus{
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.focus\:shadow-lg:focus{
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.focus\:shadow-xl:focus{
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.focus\:shadow-2xl:focus{
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-}
-
-.focus\:shadow-inner:focus{
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.focus\:shadow-outline:focus{
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-}
-
-.focus\:shadow-none:focus{
-  box-shadow: none;
+.focus\:shadow-light-outline:focus{
+  box-shadow: 0px 0px 0px 2px #D7DFE9;
 }
 
 .fill-current{
@@ -8510,7 +8414,7 @@ html, body, #__next {
   color: rgba(255, 255, 255, var(--text-opacity));
 }
 
-.text-black{
+.text-dark{
   --text-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--text-opacity));
@@ -8628,7 +8532,7 @@ html, body, #__next {
   color: rgba(255, 255, 255, var(--text-opacity));
 }
 
-.hover\:text-black:hover{
+.hover\:text-dark:hover{
   --text-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--text-opacity));
@@ -8746,7 +8650,7 @@ html, body, #__next {
   color: rgba(255, 255, 255, var(--text-opacity));
 }
 
-.focus\:text-black:focus{
+.focus\:text-dark:focus{
   --text-opacity: 1;
   color: #1E1E1E;
   color: rgba(30, 30, 30, var(--text-opacity));
@@ -12863,7 +12767,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--divide-opacity));
   }
 
-  .sm\:divide-black > :not(template) ~ :not(template){
+  .sm\:divide-dark > :not(template) ~ :not(template){
     --divide-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--divide-opacity));
@@ -13065,7 +12969,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .sm\:bg-black{
+  .sm\:bg-dark{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -13183,7 +13087,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .sm\:hover\:bg-black:hover{
+  .sm\:hover\:bg-dark:hover{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -13301,7 +13205,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .sm\:focus\:bg-black:focus{
+  .sm\:focus\:bg-dark:focus{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -13559,7 +13463,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .sm\:border-black{
+  .sm\:border-dark{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -13677,7 +13581,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .sm\:hover\:border-black:hover{
+  .sm\:hover\:border-dark:hover{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -13795,7 +13699,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .sm\:focus\:border-black:focus{
+  .sm\:focus\:border-dark:focus{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -18357,31 +18261,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-black::-webkit-input-placeholder{
+  .sm\:placeholder-dark::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-black::-moz-placeholder{
+  .sm\:placeholder-dark::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-black:-ms-input-placeholder{
+  .sm\:placeholder-dark:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-black::-ms-input-placeholder{
+  .sm\:placeholder-dark::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-black::placeholder{
+  .sm\:placeholder-dark::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -18947,31 +18851,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-black:focus::-webkit-input-placeholder{
+  .sm\:focus\:placeholder-dark:focus::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-black:focus::-moz-placeholder{
+  .sm\:focus\:placeholder-dark:focus::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-black:focus:-ms-input-placeholder{
+  .sm\:focus\:placeholder-dark:focus:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-black:focus::-ms-input-placeholder{
+  .sm\:focus\:placeholder-dark:focus::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-black:focus::placeholder{
+  .sm\:focus\:placeholder-dark:focus::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -19818,124 +19722,28 @@ html, body, #__next {
     resize: both;
   }
 
-  .sm\:shadow-xs{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .sm\:shadow-primary-outline{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .sm\:shadow-sm{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .sm\:shadow-light-outline{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .sm\:shadow{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .sm\:hover\:shadow-primary-outline:hover{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .sm\:shadow-md{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .sm\:hover\:shadow-light-outline:hover{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .sm\:shadow-lg{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .sm\:focus\:shadow-primary-outline:focus{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .sm\:shadow-xl{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .sm\:shadow-2xl{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .sm\:shadow-inner{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:shadow-outline{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .sm\:shadow-none{
-    box-shadow: none;
-  }
-
-  .sm\:hover\:shadow-xs:hover{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:hover\:shadow-sm:hover{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:hover\:shadow:hover{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:hover\:shadow-md:hover{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:hover\:shadow-lg:hover{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:hover\:shadow-xl:hover{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .sm\:hover\:shadow-2xl:hover{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .sm\:hover\:shadow-inner:hover{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:hover\:shadow-outline:hover{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .sm\:hover\:shadow-none:hover{
-    box-shadow: none;
-  }
-
-  .sm\:focus\:shadow-xs:focus{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:focus\:shadow-sm:focus{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:focus\:shadow:focus{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:focus\:shadow-md:focus{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:focus\:shadow-lg:focus{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:focus\:shadow-xl:focus{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .sm\:focus\:shadow-2xl:focus{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .sm\:focus\:shadow-inner:focus{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:focus\:shadow-outline:focus{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .sm\:focus\:shadow-none:focus{
-    box-shadow: none;
+  .sm\:focus\:shadow-light-outline:focus{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
   .sm\:fill-current{
@@ -19988,7 +19796,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .sm\:text-black{
+  .sm\:text-dark{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -20106,7 +19914,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .sm\:hover\:text-black:hover{
+  .sm\:hover\:text-dark:hover{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -20224,7 +20032,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .sm\:focus\:text-black:focus{
+  .sm\:focus\:text-dark:focus{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -24342,7 +24150,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--divide-opacity));
   }
 
-  .md\:divide-black > :not(template) ~ :not(template){
+  .md\:divide-dark > :not(template) ~ :not(template){
     --divide-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--divide-opacity));
@@ -24544,7 +24352,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .md\:bg-black{
+  .md\:bg-dark{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -24662,7 +24470,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .md\:hover\:bg-black:hover{
+  .md\:hover\:bg-dark:hover{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -24780,7 +24588,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .md\:focus\:bg-black:focus{
+  .md\:focus\:bg-dark:focus{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -25038,7 +24846,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .md\:border-black{
+  .md\:border-dark{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -25156,7 +24964,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .md\:hover\:border-black:hover{
+  .md\:hover\:border-dark:hover{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -25274,7 +25082,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .md\:focus\:border-black:focus{
+  .md\:focus\:border-dark:focus{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -29836,31 +29644,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-black::-webkit-input-placeholder{
+  .md\:placeholder-dark::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-black::-moz-placeholder{
+  .md\:placeholder-dark::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-black:-ms-input-placeholder{
+  .md\:placeholder-dark:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-black::-ms-input-placeholder{
+  .md\:placeholder-dark::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-black::placeholder{
+  .md\:placeholder-dark::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -30426,31 +30234,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-black:focus::-webkit-input-placeholder{
+  .md\:focus\:placeholder-dark:focus::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-black:focus::-moz-placeholder{
+  .md\:focus\:placeholder-dark:focus::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-black:focus:-ms-input-placeholder{
+  .md\:focus\:placeholder-dark:focus:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-black:focus::-ms-input-placeholder{
+  .md\:focus\:placeholder-dark:focus::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-black:focus::placeholder{
+  .md\:focus\:placeholder-dark:focus::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -31297,124 +31105,28 @@ html, body, #__next {
     resize: both;
   }
 
-  .md\:shadow-xs{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .md\:shadow-primary-outline{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .md\:shadow-sm{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .md\:shadow-light-outline{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .md\:shadow{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .md\:hover\:shadow-primary-outline:hover{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .md\:shadow-md{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .md\:hover\:shadow-light-outline:hover{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .md\:shadow-lg{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .md\:focus\:shadow-primary-outline:focus{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .md\:shadow-xl{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .md\:shadow-2xl{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .md\:shadow-inner{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:shadow-outline{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .md\:shadow-none{
-    box-shadow: none;
-  }
-
-  .md\:hover\:shadow-xs:hover{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:hover\:shadow-sm:hover{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:hover\:shadow:hover{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:hover\:shadow-md:hover{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:hover\:shadow-lg:hover{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:hover\:shadow-xl:hover{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .md\:hover\:shadow-2xl:hover{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .md\:hover\:shadow-inner:hover{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:hover\:shadow-outline:hover{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .md\:hover\:shadow-none:hover{
-    box-shadow: none;
-  }
-
-  .md\:focus\:shadow-xs:focus{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:focus\:shadow-sm:focus{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:focus\:shadow:focus{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:focus\:shadow-md:focus{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:focus\:shadow-lg:focus{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:focus\:shadow-xl:focus{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .md\:focus\:shadow-2xl:focus{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .md\:focus\:shadow-inner:focus{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:focus\:shadow-outline:focus{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .md\:focus\:shadow-none:focus{
-    box-shadow: none;
+  .md\:focus\:shadow-light-outline:focus{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
   .md\:fill-current{
@@ -31467,7 +31179,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .md\:text-black{
+  .md\:text-dark{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -31585,7 +31297,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .md\:hover\:text-black:hover{
+  .md\:hover\:text-dark:hover{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -31703,7 +31415,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .md\:focus\:text-black:focus{
+  .md\:focus\:text-dark:focus{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -35821,7 +35533,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--divide-opacity));
   }
 
-  .lg\:divide-black > :not(template) ~ :not(template){
+  .lg\:divide-dark > :not(template) ~ :not(template){
     --divide-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--divide-opacity));
@@ -36023,7 +35735,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .lg\:bg-black{
+  .lg\:bg-dark{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -36141,7 +35853,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .lg\:hover\:bg-black:hover{
+  .lg\:hover\:bg-dark:hover{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -36259,7 +35971,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .lg\:focus\:bg-black:focus{
+  .lg\:focus\:bg-dark:focus{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -36517,7 +36229,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .lg\:border-black{
+  .lg\:border-dark{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -36635,7 +36347,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .lg\:hover\:border-black:hover{
+  .lg\:hover\:border-dark:hover{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -36753,7 +36465,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .lg\:focus\:border-black:focus{
+  .lg\:focus\:border-dark:focus{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -41315,31 +41027,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-black::-webkit-input-placeholder{
+  .lg\:placeholder-dark::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-black::-moz-placeholder{
+  .lg\:placeholder-dark::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-black:-ms-input-placeholder{
+  .lg\:placeholder-dark:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-black::-ms-input-placeholder{
+  .lg\:placeholder-dark::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-black::placeholder{
+  .lg\:placeholder-dark::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -41905,31 +41617,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-black:focus::-webkit-input-placeholder{
+  .lg\:focus\:placeholder-dark:focus::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-black:focus::-moz-placeholder{
+  .lg\:focus\:placeholder-dark:focus::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-black:focus:-ms-input-placeholder{
+  .lg\:focus\:placeholder-dark:focus:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-black:focus::-ms-input-placeholder{
+  .lg\:focus\:placeholder-dark:focus::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-black:focus::placeholder{
+  .lg\:focus\:placeholder-dark:focus::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -42776,124 +42488,28 @@ html, body, #__next {
     resize: both;
   }
 
-  .lg\:shadow-xs{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .lg\:shadow-primary-outline{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .lg\:shadow-sm{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .lg\:shadow-light-outline{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .lg\:shadow{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .lg\:hover\:shadow-primary-outline:hover{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .lg\:shadow-md{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .lg\:hover\:shadow-light-outline:hover{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .lg\:shadow-lg{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .lg\:focus\:shadow-primary-outline:focus{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .lg\:shadow-xl{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .lg\:shadow-2xl{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .lg\:shadow-inner{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:shadow-outline{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .lg\:shadow-none{
-    box-shadow: none;
-  }
-
-  .lg\:hover\:shadow-xs:hover{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:hover\:shadow-sm:hover{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:hover\:shadow:hover{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:hover\:shadow-md:hover{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:hover\:shadow-lg:hover{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:hover\:shadow-xl:hover{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .lg\:hover\:shadow-2xl:hover{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .lg\:hover\:shadow-inner:hover{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:hover\:shadow-outline:hover{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .lg\:hover\:shadow-none:hover{
-    box-shadow: none;
-  }
-
-  .lg\:focus\:shadow-xs:focus{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:focus\:shadow-sm:focus{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:focus\:shadow:focus{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:focus\:shadow-md:focus{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:focus\:shadow-lg:focus{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:focus\:shadow-xl:focus{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .lg\:focus\:shadow-2xl:focus{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .lg\:focus\:shadow-inner:focus{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:focus\:shadow-outline:focus{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .lg\:focus\:shadow-none:focus{
-    box-shadow: none;
+  .lg\:focus\:shadow-light-outline:focus{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
   .lg\:fill-current{
@@ -42946,7 +42562,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .lg\:text-black{
+  .lg\:text-dark{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -43064,7 +42680,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .lg\:hover\:text-black:hover{
+  .lg\:hover\:text-dark:hover{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -43182,7 +42798,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .lg\:focus\:text-black:focus{
+  .lg\:focus\:text-dark:focus{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -47300,7 +46916,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--divide-opacity));
   }
 
-  .xl\:divide-black > :not(template) ~ :not(template){
+  .xl\:divide-dark > :not(template) ~ :not(template){
     --divide-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--divide-opacity));
@@ -47502,7 +47118,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .xl\:bg-black{
+  .xl\:bg-dark{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -47620,7 +47236,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .xl\:hover\:bg-black:hover{
+  .xl\:hover\:bg-dark:hover{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -47738,7 +47354,7 @@ html, body, #__next {
     background-color: rgba(255, 255, 255, var(--bg-opacity));
   }
 
-  .xl\:focus\:bg-black:focus{
+  .xl\:focus\:bg-dark:focus{
     --bg-opacity: 1;
     background-color: #1E1E1E;
     background-color: rgba(30, 30, 30, var(--bg-opacity));
@@ -47996,7 +47612,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .xl\:border-black{
+  .xl\:border-dark{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -48114,7 +47730,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .xl\:hover\:border-black:hover{
+  .xl\:hover\:border-dark:hover{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -48232,7 +47848,7 @@ html, body, #__next {
     border-color: rgba(255, 255, 255, var(--border-opacity));
   }
 
-  .xl\:focus\:border-black:focus{
+  .xl\:focus\:border-dark:focus{
     --border-opacity: 1;
     border-color: #1E1E1E;
     border-color: rgba(30, 30, 30, var(--border-opacity));
@@ -52794,31 +52410,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-black::-webkit-input-placeholder{
+  .xl\:placeholder-dark::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-black::-moz-placeholder{
+  .xl\:placeholder-dark::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-black:-ms-input-placeholder{
+  .xl\:placeholder-dark:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-black::-ms-input-placeholder{
+  .xl\:placeholder-dark::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-black::placeholder{
+  .xl\:placeholder-dark::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -53384,31 +53000,31 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-black:focus::-webkit-input-placeholder{
+  .xl\:focus\:placeholder-dark:focus::-webkit-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-black:focus::-moz-placeholder{
+  .xl\:focus\:placeholder-dark:focus::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-black:focus:-ms-input-placeholder{
+  .xl\:focus\:placeholder-dark:focus:-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-black:focus::-ms-input-placeholder{
+  .xl\:focus\:placeholder-dark:focus::-ms-input-placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-black:focus::placeholder{
+  .xl\:focus\:placeholder-dark:focus::placeholder{
     --placeholder-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--placeholder-opacity));
@@ -54255,124 +53871,28 @@ html, body, #__next {
     resize: both;
   }
 
-  .xl\:shadow-xs{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .xl\:shadow-primary-outline{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .xl\:shadow-sm{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .xl\:shadow-light-outline{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .xl\:shadow{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .xl\:hover\:shadow-primary-outline:hover{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .xl\:shadow-md{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .xl\:hover\:shadow-light-outline:hover{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
-  .xl\:shadow-lg{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .xl\:focus\:shadow-primary-outline:focus{
+    box-shadow: 0px 0px 0px 2px #0071F4;
   }
 
-  .xl\:shadow-xl{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xl\:shadow-2xl{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .xl\:shadow-inner{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:shadow-outline{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .xl\:shadow-none{
-    box-shadow: none;
-  }
-
-  .xl\:hover\:shadow-xs:hover{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:hover\:shadow-sm:hover{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:hover\:shadow:hover{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:hover\:shadow-md:hover{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:hover\:shadow-lg:hover{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:hover\:shadow-xl:hover{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xl\:hover\:shadow-2xl:hover{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .xl\:hover\:shadow-inner:hover{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:hover\:shadow-outline:hover{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .xl\:hover\:shadow-none:hover{
-    box-shadow: none;
-  }
-
-  .xl\:focus\:shadow-xs:focus{
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:focus\:shadow-sm:focus{
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:focus\:shadow:focus{
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:focus\:shadow-md:focus{
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:focus\:shadow-lg:focus{
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:focus\:shadow-xl:focus{
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xl\:focus\:shadow-2xl:focus{
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .xl\:focus\:shadow-inner:focus{
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:focus\:shadow-outline:focus{
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .xl\:focus\:shadow-none:focus{
-    box-shadow: none;
+  .xl\:focus\:shadow-light-outline:focus{
+    box-shadow: 0px 0px 0px 2px #D7DFE9;
   }
 
   .xl\:fill-current{
@@ -54425,7 +53945,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .xl\:text-black{
+  .xl\:text-dark{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -54543,7 +54063,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .xl\:hover\:text-black:hover{
+  .xl\:hover\:text-dark:hover{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));
@@ -54661,7 +54181,7 @@ html, body, #__next {
     color: rgba(255, 255, 255, var(--text-opacity));
   }
 
-  .xl\:focus\:text-black:focus{
+  .xl\:focus\:text-dark:focus{
     --text-opacity: 1;
     color: #1E1E1E;
     color: rgba(30, 30, 30, var(--text-opacity));

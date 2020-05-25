@@ -1,6 +1,10 @@
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
+    boxShadow: {
+      'primary-outline': '0px 0px 0px 2px #0071F4',
+      'light-outline': '0px 0px 0px 2px #D7DFE9',
+    },
     fontFamily: {
       title: ['Rubik', 'Inter', 'Roboto', 'sans-serif'],
       paragraph: ['Roboto', 'sans-serif'],
@@ -45,7 +49,7 @@ module.exports = {
     },
     colors: {
       white: '#FFFFFF',
-      black: '#1E1E1E',
+      dark: '#1E1E1E',
       primary: {
         100: '#0071F4',
         200: '#0765D3',
