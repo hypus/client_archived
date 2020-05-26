@@ -1,13 +1,15 @@
 // @flow
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 import {
-  Badge, Button, Input, Password, Search, Checkbox,
+  Badge, Button, Input, Checkbox,
 } from '@/ui';
 import { AppLayout } from '@/layout';
 
 function Home() {
+  const [value, setValue] = useState('');
+
   return (
     <AppLayout>
       <Helmet title="Home" />
@@ -15,16 +17,14 @@ function Home() {
       <Button variant="light">HELLO</Button>
 
       <div className="p-10 m-10">
-        <Input extraClassName="mt-4" id="email" label="E-MAIL ADDRESS" />
         <Input
           extraClassName="mt-4"
-          error="This e-mail already exists."
-          value="test@test.com"
-          id="email1"
-          label="E-MAIL ADDRESS"
+          id="password"
+          label="PASSWORD"
+          type="password"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
         />
-        <Password extraClassName="mt-4" id="password" label="PASSWORD" placeholder="Enter your password" />
-        <Search extraClassName="mt-4" id="password" label="SEARCH" placeholder="Search" />
       </div>
       <Checkbox label="This is a checkbox" id="checkbox" />
     </AppLayout>

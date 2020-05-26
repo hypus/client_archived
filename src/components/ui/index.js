@@ -5,7 +5,7 @@ import Button from './button';
 import Checkbox from './checkbox';
 import DatePicker from './date-picker';
 import DateTimePicker from './date-time-picker';
-import { Input, Password, Search } from './input';
+import Input from './input';
 import Menu from './menu';
 import Modal from './modal';
 import Radio from './radio';
@@ -25,8 +25,6 @@ export {
   DatePicker,
   DateTimePicker,
   Input,
-  Password,
-  Search,
   Menu,
   Modal,
   Radio,
