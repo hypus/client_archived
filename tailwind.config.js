@@ -79,6 +79,7 @@ module.exports = {
         300: '#D7042A',
         400: 'rgba(255, 11, 55, .05)',
       },
+      info: '#0b69ff',
     },
     spacing: {
       1: '0.25rem',
