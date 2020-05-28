@@ -1,6 +1,12 @@
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
+    screens: {
+      sm: '576px',
+      md: '768px',
+      lg: '992px',
+      xl: '1200px',
+    },
     boxShadow: {
       'primary-outline': '0px 0px 0px 2px #0071F4',
       'light-outline': '0px 0px 0px 2px #D7DFE9',
@@ -82,6 +88,8 @@ module.exports = {
       info: '#0b69ff',
     },
     spacing: {
+      col: '0.9375rem',
+      row: '-0.9375rem',
       1: '0.25rem',
       2: '0.5rem',
       3: '0.75rem',
@@ -107,6 +115,21 @@ module.exports = {
       23: '5.75rem',
       24: '6rem',
       25: '6.25rem',
+    },
+    fontSize: {
+      xs: '.75rem',
+      sm: '.875rem',
+      tiny: '.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2rem',
+      '5xl': '2.25rem',
+      '6xl': '3rem',
+      '7xl': '4rem',
+      '8xl': '5rem',
     },
   },
   variants: {},

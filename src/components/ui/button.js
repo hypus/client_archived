@@ -59,7 +59,7 @@ function Button({
     'cursor-no-drop select-none': disabled,
   });
   const buttonClasses = cls(
-    'focus:outline-none font-paragraph items-center px-4 py-2 rounded-2 text-sm cursor-pointer',
+    'focus:outline-none font-paragraph items-center px-4 py-3 rounded-2 text-sm cursor-pointer',
     {
       'text-white bg-primary-200 hover:bg-primary-100 focus:bg-primary-300 focus:shadow-primary-outline':
         !outline && variant === 'primary',
