@@ -3,14 +3,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-// import {  } from '@/ui';
-import { ProjectCard } from '@/common';
+import { Paragraph, ProjectCard } from '@/common';
+
 import { AppLayout } from '@/layout';
 
 function Home() {
   return (
     <AppLayout>
       <Helmet title="Home" />
+      <Paragraph>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid itaque eligendi uis consequuntur laboriosam eos
+        quaerat in voluptas dolorem quos architecto, ducimus deleniti quod maiores eum pariatur sint vitae? Nobis?
+      </Paragraph>
       <div className="flex mx-row flex-wrap">
         {[0, 0, 0].map(() => (
           <div className="lg:w-4/12 md:w-6/12 w-full px-col mb-5 lg:mb-0">

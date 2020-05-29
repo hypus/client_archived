@@ -2,7 +2,7 @@
 import cls from 'classnames';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
-import React from 'react';
+import * as React from 'react';
 
 import { Icon } from '@/common';
 
@@ -67,8 +67,8 @@ function Button({
         outline && variant === 'primary',
       'bg-light-200 hover:bg-light-100 focus:bg-light-300 focus:shadow-light-outline text-dark':
         !outline && variant === 'light',
-      'border-light-200 text-light-300 hover:bg-light-200 focus:bg-light-300 focus:border-light-300 focus:text-dark hover:text-dark':
-        outline && variant === 'light',
+      'border-light-200 text-light-300 hover:bg-light-200 focus:bg-light-300': outline && variant === 'light',
+      'focus:border-light-300 focus:text-dark hover:text-dark': outline && variant === 'light',
       'opacity-25 pointer-events-none': disabled,
       'bg-transparent border': outline,
       'flex justify-center w-full': block,
