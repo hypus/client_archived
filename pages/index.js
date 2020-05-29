@@ -11,9 +11,10 @@ function Home() {
   return (
     <AppLayout>
       <Helmet title="Home" />
+      <div className="hello">Hello React.js</div>
       <div className="flex mx-row flex-wrap">
-        {[0, 0, 0].map(() => (
-          <div className="lg:w-4/12 md:w-6/12 w-full px-col mb-5 lg:mb-0">
+        {[0, 1, 2].map((i) => (
+          <div key={i} className="lg:w-4/12 md:w-6/12 w-full px-col mb-5 lg:mb-0">
             <ProjectCard
               avatar="https://via.placeholder.com/120"
               name="ZERO STUDIO"
