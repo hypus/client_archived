@@ -28,7 +28,9 @@ function Textarea({ label, id, extraClassName, error, value, ...props }) {
       </label>
 
       <div className="relative">
-        <textarea className={TextareaClasses} id={id} {...props}>{value}</textarea>
+        <textarea className={TextareaClasses} id={id} {...props}>
+          {value}
+        </textarea>
       </div>
       {error && <div className="mt-3 text-danger-200">{error}</div>}
     </div>

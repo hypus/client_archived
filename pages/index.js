@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 import { Paragraph, Title } from '@/common';
-import { Textarea } from '@/ui';
+import { Textarea, Switcher } from '@/ui';
 
 import { AppLayout } from '@/layout';
 
 function Home() {
+  const [isChecked, setIsChecked] = useState(false);
+
   return (
     <AppLayout>
       <Helmet title="Home" />
@@ -16,8 +18,9 @@ function Home() {
       </Paragraph>
       <div className="hello">Hello React.js</div>
       <Title size="sm">HELLO WORLD</Title>
-
       <Textarea label="test" />
+      {isChecked ? 'checked' : 'not checked'}
+      <Switcher label="test et bakalım" isChecked={isChecked} onSelected={(checked) => setIsChecked(checked)} />
     </AppLayout>
   );
 }
