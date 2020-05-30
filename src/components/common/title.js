@@ -1,7 +1,5 @@
-// @flow
 import cls from 'classnames';
 import PropTypes from 'prop-types';
-import React, { Node } from 'react';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -13,13 +11,6 @@ const propTypes = {
 const defaultProps = {
   size: 'md',
   tag: 'h5',
-};
-
-type Props = {
-  children: Node,
-  extraClassName: ?string,
-  tag: ?string,
-  size: string,
 };
 
 const allowedTitleTags = {
@@ -37,7 +28,7 @@ const sizes = {
 
 function Title({
   children, extraClassName, size, tag, ...props
-}: Props) {
+}) {
   let TitleComp;
 
   if (typeof allowedTitleTags[tag || 'h5'] === 'undefined') {

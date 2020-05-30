@@ -1,13 +1,9 @@
-// @flow
 import cls from 'classnames';
 import PropTypes from 'prop-types';
-import React from 'react';
-
-import { type ParagraphProps } from '@/types/paragraph.type';
 
 function Paragraph({
   extraClassName, children, type, ...props
-}: ParagraphProps) {
+}) {
   const paragraphClasses = cls('font-paragraph text-light-300 text-base leading-normal', {
     'font-light': type === 'light',
     'font-medium': type === 'medium',

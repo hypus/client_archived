@@ -1,5 +1,4 @@
-// @flow
-import React, { useState } from 'react';
+import { useState } from 'react';
 import cls from 'classnames';
 import PropTypes from 'prop-types';
 
@@ -17,17 +16,9 @@ const defaultProps = {
   size: 'md',
 };
 
-type Props = {
-  extraClassName: ?string,
-  description: string,
-  title: string,
-  type: string,
-  size: ?string,
-};
-
 function Alert({
   extraClassName, description, title, type, size,
-}: Props) {
+}) {
   const [isClose, setIsClose] = useState(false);
   const handleOnClose = () => setIsClose(true);
 

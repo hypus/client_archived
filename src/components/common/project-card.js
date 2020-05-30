@@ -1,8 +1,6 @@
-// @flow
 import cls from 'classnames';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 import { Button } from '@/ui';
 import { Icon } from '@/common';
@@ -21,20 +19,9 @@ const propTypes = {
 
 const defaultProps = {};
 
-type Props = {
-  avatar: string,
-  extraClassName: ?string,
-  name: string,
-  description: string,
-  user: any,
-  uuid: string,
-  members: any,
-  isMember: ?boolean,
-};
-
 function ProjectCard({
   avatar, extraClassName, name, description, user, uuid, members, isMember, ...props
-}: Props) {
+}) {
   return (
     <div className={cls('p-7 border border-light-300 rounded-2', extraClassName)} {...props}>
       <div className="flex flex-col lg:flex-row">

@@ -1,13 +1,7 @@
-// @flow
 import * as Icons from 'react-feather';
 import PropTypes from 'prop-types';
-import React from 'react';
 
-type Props = {
-  name: string,
-};
-
-function Icon({ name, ...props }: Props) {
+function Icon({ name, ...props }) {
   if (typeof Icons[name] !== 'object') {
     console.error(`Oh no! Looks like this icon does not exists. Please be sure that you use icons like:
 1) Use PascalCase. eg: ChevronLeft

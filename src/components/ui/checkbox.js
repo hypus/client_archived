@@ -1,7 +1,5 @@
-// @flow
 import cls from 'classnames';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 const propTypes = {
   extraClassName: PropTypes.string,
@@ -11,15 +9,9 @@ const propTypes = {
 
 const defaultProps = {};
 
-type Props = {
-  extraClassName: ?string,
-  id: string,
-  label: ?string,
-};
-
 function Checkbox({
   extraClassName, id, label, ...props
-}: Props) {
+}) {
   return (
     <div className={cls('inline-flex items-center', extraClassName)}>
       <input type="checkbox" id={id} className="mr-2" {...props} />

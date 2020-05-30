@@ -1,15 +1,9 @@
-// @flow
 import React from 'react';
 import PropTypes from 'prop-types';
 
 import '../styles/index.css';
 
-type Props = {
-  Component: any,
-  pageProps: any,
-};
-
-function HypusApp({ Component, pageProps }: Props) {
+function HypusApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 

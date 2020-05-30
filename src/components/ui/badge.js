@@ -1,7 +1,5 @@
-// @flow
 import cls from 'classnames';
 import PropTypes from 'prop-types';
-import React, { type Node } from 'react';
 
 const propTypes = {
   children: PropTypes.node,
@@ -13,15 +11,9 @@ const defaultProps = {
   type: 'member',
 };
 
-type Props = {
-  children: Node,
-  extraClassName: ?string,
-  type: ?string,
-};
-
 function Badge({
   children, extraClassName, type, ...props
-}: Props) {
+}) {
   const badgeClasses = cls(
     'py-1 px-4 rounded-2 inline-block text-xs border bg-white',
     {

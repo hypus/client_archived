@@ -1,8 +1,7 @@
-// @flow
 /* eslint-disable */
 import cls from 'classnames';
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import { Icon } from '@/common';
 
@@ -19,16 +18,7 @@ const defaultProps = {
   type: 'text',
 };
 
-type Props = {
-  type: string,
-  label: ?string,
-  icon: ?string,
-  id: ?string,
-  extraClassName: ?string,
-  error: ?string,
-};
-
-function Input({ type, label, icon, id, extraClassName, error, ...props }: Props) {
+function Input({ type, label, icon, id, extraClassName, error, ...props }) {
   const inputClasses = cls(
     'outline-none border border-light-200 rounded-2 placeholder-light-300 placeholder-light-400 py-3 pl-5 w-full',
     {
@@ -43,7 +33,7 @@ function Input({ type, label, icon, id, extraClassName, error, ...props }: Props
     'cursor-pointer': type === 'password',
   });
   const [inputType, setInputType] = useState(type);
-  const controlInputType = (str1: string, str2: string): string => (inputType === 'text' ? str1 : str2);
+  const controlInputType = (str1, str2) => (inputType === 'text' ? str1 : str2);
   const changeInputType = () => setInputType(controlInputType('password', 'text'));
 
   return (

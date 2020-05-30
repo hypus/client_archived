@@ -1,7 +1,5 @@
-// @flow
 // import cls from 'classnames';
 import PropTypes from 'prop-types';
-import React, { type Node } from 'react';
 
 const propTypes = {
   children: PropTypes.node,
@@ -9,11 +7,7 @@ const propTypes = {
 
 const defaultProps = {};
 
-type Props = {
-  children: Node,
-};
-
-function AppLayout({ children }: Props) {
+function AppLayout({ children }) {
   // const classes = {
   //   sidebar: cls('w-25 h-full fixed top-0 left-0'),
   //   bodyContainer: cls('ml-25 h-full'),

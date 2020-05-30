@@ -1,4 +1,3 @@
-// @flow
 import cls from 'classnames';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
@@ -26,35 +25,9 @@ const defaultProps = {
   variant: 'primary',
 };
 
-type Props = {
-  active: ?boolean,
-  block: ?boolean,
-  children: any,
-  disabled: ?boolean,
-  extraClassName: ?string,
-  icon: ?{
-    position: ?string,
-    name: string,
-  },
-  loading: ?boolean,
-  outline: ?boolean,
-  to: ?string,
-  variant: string,
-};
-
 function Button({
-  active,
-  block,
-  children,
-  disabled,
-  extraClassName,
-  icon,
-  loading,
-  outline,
-  to,
-  variant,
-  ...props
-}: Props) {
+  active, block, children, disabled, extraClassName, icon, loading, outline, to, variant, ...props
+}) {
   const buttonContainerClasses = cls(block ? 'block' : 'inline-block', {
     'cursor-no-drop select-none': disabled,
   });
