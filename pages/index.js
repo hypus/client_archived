@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { Paragraph, Title } from '@/common';
+import { Textarea } from '@/ui';
 
 import { AppLayout } from '@/layout';
 
@@ -15,6 +16,8 @@ function Home() {
       </Paragraph>
       <div className="hello">Hello React.js</div>
       <Title size="sm">HELLO WORLD</Title>
+
+      <Textarea label="test" />
     </AppLayout>
   );
 }
