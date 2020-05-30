@@ -24,6 +24,7 @@ const allowedTitleTags = {
 };
 const sizes = {
   sm: 'font-medium text-4xl',
+  md: 'font-medium text-6xl',
 };
 
 function Title({
@@ -31,15 +32,15 @@ function Title({
 }) {
   let TitleComp;
 
-  if (typeof allowedTitleTags[tag || 'h5'] === 'undefined') {
+  if (typeof allowedTitleTags[tag] === 'undefined') {
     console.error("You're trying to use a tag that does not exist.");
     TitleComp = 'h5';
   } else {
-    TitleComp = allowedTitleTags[tag || 'h5'];
+    TitleComp = allowedTitleTags[tag];
   }
 
   return (
-    <TitleComp className={cls('font-title text-dark leading-normal', sizes[size])} {...props}>
+    <TitleComp className={cls('font-title text-dark leading-normal tracking-wide', sizes[size])} {...props}>
       {children}
     </TitleComp>
   );
