@@ -10,7 +10,6 @@ jobs:
       - node/with-cache:
           steps:
             - run: npm install
-            - run: npm run format
 workflows:
     build-and-format:
       jobs:
