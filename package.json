@@ -1,24 +1,21 @@
 {
-  "name": "with-flow",
+  "name": "client",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Jag Reehal",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "flow": "flow",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "start": "next start",
-    "build:css": "tailwindcss build styles/tailwind.css -o styles/index.css",
-    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "format": "prettier src pages --write && eslint src pages --fix"
+    "build:tailwind": "tailwindcss build styles/tailwind.css -o styles/index.css",
+    "dev": "next",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format && git add .",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -63,7 +60,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.2",
-    "flow-bin": "0.77.0",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "postcss-cli": "^7.1.1",
