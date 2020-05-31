@@ -34,12 +34,6 @@ function Select({
       'border-light-200': !showOptions,
     },
   );
-  const optionsClasses = cls(
-    'py-3 border border-light-200 rounded-2 mt-1 absolute w-full',
-    {
-      hidden: !showOptions,
-    },
-  );
   const onSelectOption = (option) => {
     setSelected(option);
     setShowOptions(false);
@@ -62,26 +56,28 @@ function Select({
           <Icon name="ChevronDown" />
         </div>
       </button>
-      <div className={optionsClasses}>
-        {options.map(({ id, label }) => (
-          <button
-            type="button"
-            key={id}
-            className={cls(
-              'py-2 px-4 cursor-pointer focus:outline-none flex w-full mb-1 last:mb-0',
-              {
-                'bg-white hover:bg-light-100 text-light-300':
-                  !selected || selected.id !== id,
-                'bg-primary-200 hover:bg-primary-300 text-white':
-                  selected && selected.id === id,
-              },
-            )}
-            onClick={() => onSelectOption({ id, label })}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
+      {showOptions && (
+        <div className="bg-white z-10 py-3 border border-light-200 rounded-2 mt-1 absolute w-full">
+          {options.map(({ id, label }) => (
+            <button
+              type="button"
+              key={id}
+              className={cls(
+                'py-2 px-4 cursor-pointer focus:outline-none flex w-full mb-1 last:mb-0',
+                {
+                  'bg-white hover:bg-light-100 text-light-300':
+                    !selected || selected.id !== id,
+                  'bg-primary-200 hover:bg-primary-300 text-white':
+                    selected && selected.id === id,
+                },
+              )}
+              onClick={() => onSelectOption({ id, label })}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

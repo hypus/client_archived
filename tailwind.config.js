@@ -150,6 +150,27 @@ module.exports = {
       400: '25rem',
       500: '31.25rem',
     },
+    inset: {
+      0: 0,
+      '1/2': '50%',
+      1: '1px',
+      2: '2px',
+      3: '3px',
+      4: '4px',
+      5: '5px',
+      6: '6px',
+      7: '7px',
+      8: '8px',
+      9: '9px',
+      10: '10px',
+    },
+    extend: {
+      translate: {
+        0: 0,
+        '1/2': '50%',
+        'minus-1/2': '-50%',
+      },
+    },
   },
   variants: {
     accessibility: ['responsive', 'focus'],
