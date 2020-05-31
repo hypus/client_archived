@@ -15,6 +15,7 @@ function Avatar({ extraClassName, size, source }) {
   return (
     <div
       className={cls(
+        'rounded-full',
         {
           'w-12 h-12': size === 'lg',
           'w-10 h-10': size === 'md',
