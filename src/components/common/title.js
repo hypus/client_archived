@@ -44,6 +44,7 @@ function Title({
       className={cls(
         'font-title text-dark leading-normal tracking-wide',
         sizes[size],
+        extraClassName,
       )}
       {...props}
     >
