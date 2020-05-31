@@ -43,6 +43,6 @@
 		"no-param-reassign": "off",
     "no-tabs": "off",
     "react/button-has-type": "off",
-    "max-len": ["error", { "code": 120 }]
+    "max-len": "off"
 	}
 }

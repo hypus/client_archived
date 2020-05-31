@@ -20,17 +20,30 @@ const propTypes = {
 const defaultProps = {};
 
 function ProjectCard({
-  avatar, extraClassName, name, description, user, uuid, members, isMember, ...props
+  avatar,
+  extraClassName,
+  name,
+  description,
+  user,
+  uuid,
+  members,
+  isMember,
+  ...props
 }) {
   return (
-    <div className={cls('p-7 border border-light-300 rounded-2', extraClassName)} {...props}>
+    <div
+      className={cls('p-7 border border-light-300 rounded-2', extraClassName)}
+      {...props}
+    >
       <div className="flex flex-col lg:flex-row">
         <div className="mr-5">
           <img src={avatar} className="rounded-2 lg:w-full" alt="" />
         </div>
         <div>
           <h5 className="font-title text-dark text-2xl font-medium">{name}</h5>
-          <p className="font-paragraph text-light-300 font-medium leading-normal mt-4">{description}</p>
+          <p className="font-paragraph text-light-300 font-medium leading-normal mt-4">
+            {description}
+          </p>
         </div>
       </div>
       <div className="pt-8">

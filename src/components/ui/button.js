@@ -26,7 +26,17 @@ const defaultProps = {
 };
 
 function Button({
-  active, block, children, disabled, extraClassName, icon, loading, outline, to, variant, ...props
+  active,
+  block,
+  children,
+  disabled,
+  extraClassName,
+  icon,
+  loading,
+  outline,
+  to,
+  variant,
+  ...props
 }) {
   const buttonContainerClasses = cls(block ? 'block' : 'inline-block', {
     'cursor-no-drop select-none': disabled,
@@ -40,8 +50,10 @@ function Button({
         outline && variant === 'primary',
       'bg-light-200 hover:bg-light-100 focus:bg-light-300 focus:shadow-light-outline text-dark':
         !outline && variant === 'light',
-      'border-light-200 text-light-300 hover:bg-light-200 focus:bg-light-300': outline && variant === 'light',
-      'focus:border-light-300 focus:text-dark hover:text-dark': outline && variant === 'light',
+      'border-light-200 text-light-300 hover:bg-light-200 focus:bg-light-300':
+        outline && variant === 'light',
+      'focus:border-light-300 focus:text-dark hover:text-dark':
+        outline && variant === 'light',
       'opacity-25 pointer-events-none': disabled,
       'bg-transparent border': outline,
       'flex justify-center w-full': block,
@@ -62,13 +74,27 @@ function Button({
           <a className={buttonClasses}>
             {loading && (
               <div className="w-6 mr-2">
-                <svg className="circular" viewBox="25 25 50 50" stroke="currentColor">
-                  <circle className="path" cx="50" cy="50" r="20" fill="none" strokeWidth="4" strokeMiterlimit="10" />
+                <svg
+                  className="circular"
+                  viewBox="25 25 50 50"
+                  stroke="currentColor"
+                >
+                  <circle
+                    className="path"
+                    cx="50"
+                    cy="50"
+                    r="20"
+                    fill="none"
+                    strokeWidth="4"
+                    strokeMiterlimit="10"
+                  />
                 </svg>
               </div>
             )}
 
-            {!loading && icon && <Icon className={iconClasses} name={icon.name} />}
+            {!loading && icon && (
+              <Icon className={iconClasses} name={icon.name} />
+            )}
 
             {children}
           </a>
@@ -82,8 +108,20 @@ function Button({
       <button className={buttonClasses} {...props}>
         {loading && (
           <div className="w-6 mr-2">
-            <svg className="circular" viewBox="25 25 50 50" stroke="currentColor">
-              <circle className="path" cx="50" cy="50" r="20" fill="none" strokeWidth="4" strokeMiterlimit="10" />
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+              stroke="currentColor"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                r="20"
+                fill="none"
+                strokeWidth="4"
+                strokeMiterlimit="10"
+              />
             </svg>
           </div>
         )}

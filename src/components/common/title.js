@@ -40,7 +40,13 @@ function Title({
   }
 
   return (
-    <TitleComp className={cls('font-title text-dark leading-normal tracking-wide', sizes[size])} {...props}>
+    <TitleComp
+      className={cls(
+        'font-title text-dark leading-normal tracking-wide',
+        sizes[size],
+      )}
+      {...props}
+    >
       {children}
     </TitleComp>
   );

@@ -30,8 +30,10 @@ function Alert({
           {
             'bg-danger-400 border-danger-200 text-danger-200': type === 'error',
             'bg-white border-info text-info': type === 'info',
-            'bg-success-400 border-success-200 text-success-200': type === 'success',
-            'bg-warning-400 border-warning-200 text-warning-200': type === 'warning',
+            'bg-success-400 border-success-200 text-success-200':
+              type === 'success',
+            'bg-warning-400 border-warning-200 text-warning-200':
+              type === 'warning',
           },
           extraClassName,
         )}
@@ -57,7 +59,11 @@ function Alert({
           </div>
         </div>
 
-        <button type="button" className="cursor-pointer focus:outline-none" onClick={() => handleOnClose()}>
+        <button
+          type="button"
+          className="cursor-pointer focus:outline-none"
+          onClick={() => handleOnClose()}
+        >
           <Icon name="X" />
         </button>
       </div>

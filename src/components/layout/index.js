@@ -7,5 +7,11 @@ import ProjectLayout from './project';
 import SearchLayout from './search';
 
 export {
-  AppLayout, AuthLayout, ChatLayout, DiscoverLayout, ProfileLayout, ProjectLayout, SearchLayout,
+  AppLayout,
+  AuthLayout,
+  ChatLayout,
+  DiscoverLayout,
+  ProfileLayout,
+  ProjectLayout,
+  SearchLayout,
 };

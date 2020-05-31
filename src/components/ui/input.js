@@ -27,18 +27,27 @@ function Input({ type, label, icon, id, extraClassName, error, ...props }) {
       'pr-16': icon,
     }
   );
-  const iconClasses = cls('absolute bottom-0 right-0 h-full flex items-center px-5', {
-    'text-light-300': !error,
-    'text-danger-200': error,
-    'cursor-pointer': type === 'password',
-  });
+  const iconClasses = cls(
+    'absolute bottom-0 right-0 h-full flex items-center px-5',
+    {
+      'text-light-300': !error,
+      'text-danger-200': error,
+      'cursor-pointer': type === 'password',
+    }
+  );
   const [inputType, setInputType] = useState(type);
   const controlInputType = (str1, str2) => (inputType === 'text' ? str1 : str2);
-  const changeInputType = () => setInputType(controlInputType('password', 'text'));
+  const changeInputType = () =>
+    setInputType(controlInputType('password', 'text'));
 
   return (
     <div className={extraClassName}>
-      <label className={cls('inline-block mb-3 text-light-300', { 'text-danger-200': error })} htmlFor={id}>
+      <label
+        className={cls('inline-block mb-3 text-light-300', {
+          'text-danger-200': error,
+        })}
+        htmlFor={id}
+      >
         {label}
       </label>
 

@@ -7,6 +7,17 @@ import createApolloClient from './apollo-client';
 
 let globalApolloClient = null;
 
+const initApolloClient = (initialState, ctx) => {
+  if (typeof window === 'undefined') {
+    return createApolloClient(initialState, ctx);
+  }
+  if (!globalApolloClient) {
+    globalApolloClient = createApolloClient(initialState, ctx);
+  }
+
+  return globalApolloClient;
+};
+
 export const initOnContext = (ctx) => {
   const inAppContext = Boolean(ctx.ctx);
 
@@ -20,7 +31,9 @@ export const initOnContext = (ctx) => {
   }
 
   // eslint-disable-next-line
-  const apolloClient = ctx.apolloClient || initApolloClient(ctx.apolloState || {}, inAppContext ? ctx.ctx : ctx);
+  const apolloClient =
+    ctx.apolloClient
+    || initApolloClient(ctx.apolloState || {}, inAppContext ? ctx.ctx : ctx);
 
   apolloClient.toJSON = () => null;
   ctx.apolloClient = apolloClient;
@@ -31,16 +44,7 @@ export const initOnContext = (ctx) => {
 
   return ctx;
 };
-const initApolloClient = (initialState, ctx) => {
-  if (typeof window === 'undefined') {
-    return createApolloClient(initialState, ctx);
-  }
-  if (!globalApolloClient) {
-    globalApolloClient = createApolloClient(initialState, ctx);
-  }
 
-  return globalApolloClient;
-};
 export const withApollo = ({ ssr = true } = {}) => (PageComponent) => {
   const WithApollo = ({ apolloClient, apolloState, ...pageProps }) => {
     let client;

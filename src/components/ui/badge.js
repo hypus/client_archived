@@ -19,7 +19,8 @@ function Badge({
     {
       'bg-primary-200 text-white': type === 'founder',
       'bg-light-200-focus text-dark': type === 'member',
-      'bg-success-200-bg text-success-200 border-success-200': type === 'worker',
+      'bg-success-200-bg text-success-200 border-success-200':
+        type === 'worker',
     },
     extraClassName,
   );
