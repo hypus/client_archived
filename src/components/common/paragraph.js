@@ -11,6 +11,7 @@ function Paragraph({
       'font-medium': type === 'medium',
       'font-bold': type === 'bold',
     },
+    extraClassName,
   );
 
   return (
