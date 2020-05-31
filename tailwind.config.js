@@ -8,8 +8,9 @@ module.exports = {
       xl: '1200px',
     },
     boxShadow: {
-      'primary-outline': '0px 0px 0px 2px #0071F4',
-      'light-outline': '0px 0px 0px 2px #D7DFE9',
+      'primary-outline': '0 0 0 2px #0071F4',
+      'light-outline': '0 0 0 2px #D7DFE9',
+      sm: '0 4px 4px 0 rgba(0, 0, 0, 0.05)',
     },
     fontFamily: {
       title: ['Rubik', 'Inter', 'Roboto', 'sans-serif'],
@@ -62,6 +63,8 @@ module.exports = {
         300: '#005CC8',
       },
       light: {
+        50: '#F5F5F5',
+        75: '#F1F1F1',
         100: '#EEF0F3',
         200: '#D7DFE9',
         300: '#C1CBD7',
@@ -194,7 +197,7 @@ module.exports = {
     boxSizing: ['responsive'],
     clear: ['responsive'],
     cursor: ['responsive'],
-    display: ['responsive'],
+    display: ['responsive', 'group-hover', 'group-focus'],
     divideColor: ['responsive'],
     divideOpacity: ['responsive'],
     divideWidth: ['responsive'],
@@ -252,7 +255,7 @@ module.exports = {
     strokeWidth: ['responsive'],
     tableLayout: ['responsive'],
     textAlign: ['responsive'],
-    textColor: ['responsive', 'hover', 'focus'],
+    textColor: ['responsive', 'hover', 'focus', 'group-hover', 'group-focus'],
     textDecoration: ['responsive', 'hover', 'focus'],
     textOpacity: ['responsive', 'hover', 'focus'],
     textTransform: ['responsive'],

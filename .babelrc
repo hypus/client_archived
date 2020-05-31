@@ -8,6 +8,7 @@
         "@/ui": "./src/components/ui",
         "@/partials": "./src/components/partials",
         "@/layout": "./src/components/layout",
+        "@/components": "./src/components",
         "@": "./src"
       }
     }]

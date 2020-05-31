@@ -8,6 +8,8 @@ import {
 
 import { AppLayout } from '@/layout';
 
+import AccountType from '@/components/auth/account-type';
+
 function Home() {
   const [isChecked, setIsChecked] = useState(false);
 
@@ -44,6 +46,13 @@ function Home() {
       <Avatar
         size="lg"
         source="https://cdn.zeplin.io/5ecc1c5ec6ae1047a3555c37/assets/e33552aa-cd31-4915-8e16-81eff68ad60d@3x.png"
+        extraClassName="mb-12"
+      />
+      <AccountType
+        icon="Codesandbox"
+        name="Entrepreneur"
+        description="for Founders and Co-Founders"
+        onClick={() => console.log('CLICKED!')}
       />
     </AppLayout>
   );
