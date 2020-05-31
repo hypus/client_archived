@@ -8417,11 +8417,81 @@ html, body, #__next {
   left: 0;
 }
 
-.inset-auto{
-  top: auto;
-  right: auto;
-  bottom: auto;
-  left: auto;
+.inset-1{
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+}
+
+.inset-2{
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+}
+
+.inset-3{
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+}
+
+.inset-4{
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+}
+
+.inset-5{
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+}
+
+.inset-6{
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+}
+
+.inset-7{
+  top: 7px;
+  right: 7px;
+  bottom: 7px;
+  left: 7px;
+}
+
+.inset-8{
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
+}
+
+.inset-9{
+  top: 9px;
+  right: 9px;
+  bottom: 9px;
+  left: 9px;
+}
+
+.inset-10{
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.inset-1\/2{
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
 }
 
 .inset-y-0{
@@ -8434,14 +8504,114 @@ html, body, #__next {
   left: 0;
 }
 
-.inset-y-auto{
-  top: auto;
-  bottom: auto;
+.inset-y-1{
+  top: 1px;
+  bottom: 1px;
 }
 
-.inset-x-auto{
-  right: auto;
-  left: auto;
+.inset-x-1{
+  right: 1px;
+  left: 1px;
+}
+
+.inset-y-2{
+  top: 2px;
+  bottom: 2px;
+}
+
+.inset-x-2{
+  right: 2px;
+  left: 2px;
+}
+
+.inset-y-3{
+  top: 3px;
+  bottom: 3px;
+}
+
+.inset-x-3{
+  right: 3px;
+  left: 3px;
+}
+
+.inset-y-4{
+  top: 4px;
+  bottom: 4px;
+}
+
+.inset-x-4{
+  right: 4px;
+  left: 4px;
+}
+
+.inset-y-5{
+  top: 5px;
+  bottom: 5px;
+}
+
+.inset-x-5{
+  right: 5px;
+  left: 5px;
+}
+
+.inset-y-6{
+  top: 6px;
+  bottom: 6px;
+}
+
+.inset-x-6{
+  right: 6px;
+  left: 6px;
+}
+
+.inset-y-7{
+  top: 7px;
+  bottom: 7px;
+}
+
+.inset-x-7{
+  right: 7px;
+  left: 7px;
+}
+
+.inset-y-8{
+  top: 8px;
+  bottom: 8px;
+}
+
+.inset-x-8{
+  right: 8px;
+  left: 8px;
+}
+
+.inset-y-9{
+  top: 9px;
+  bottom: 9px;
+}
+
+.inset-x-9{
+  right: 9px;
+  left: 9px;
+}
+
+.inset-y-10{
+  top: 10px;
+  bottom: 10px;
+}
+
+.inset-x-10{
+  right: 10px;
+  left: 10px;
+}
+
+.inset-y-1\/2{
+  top: 50%;
+  bottom: 50%;
+}
+
+.inset-x-1\/2{
+  right: 50%;
+  left: 50%;
 }
 
 .top-0{
@@ -8460,20 +8630,180 @@ html, body, #__next {
   left: 0;
 }
 
-.top-auto{
-  top: auto;
+.top-1{
+  top: 1px;
 }
 
-.right-auto{
-  right: auto;
+.right-1{
+  right: 1px;
 }
 
-.bottom-auto{
-  bottom: auto;
+.bottom-1{
+  bottom: 1px;
 }
 
-.left-auto{
-  left: auto;
+.left-1{
+  left: 1px;
+}
+
+.top-2{
+  top: 2px;
+}
+
+.right-2{
+  right: 2px;
+}
+
+.bottom-2{
+  bottom: 2px;
+}
+
+.left-2{
+  left: 2px;
+}
+
+.top-3{
+  top: 3px;
+}
+
+.right-3{
+  right: 3px;
+}
+
+.bottom-3{
+  bottom: 3px;
+}
+
+.left-3{
+  left: 3px;
+}
+
+.top-4{
+  top: 4px;
+}
+
+.right-4{
+  right: 4px;
+}
+
+.bottom-4{
+  bottom: 4px;
+}
+
+.left-4{
+  left: 4px;
+}
+
+.top-5{
+  top: 5px;
+}
+
+.right-5{
+  right: 5px;
+}
+
+.bottom-5{
+  bottom: 5px;
+}
+
+.left-5{
+  left: 5px;
+}
+
+.top-6{
+  top: 6px;
+}
+
+.right-6{
+  right: 6px;
+}
+
+.bottom-6{
+  bottom: 6px;
+}
+
+.left-6{
+  left: 6px;
+}
+
+.top-7{
+  top: 7px;
+}
+
+.right-7{
+  right: 7px;
+}
+
+.bottom-7{
+  bottom: 7px;
+}
+
+.left-7{
+  left: 7px;
+}
+
+.top-8{
+  top: 8px;
+}
+
+.right-8{
+  right: 8px;
+}
+
+.bottom-8{
+  bottom: 8px;
+}
+
+.left-8{
+  left: 8px;
+}
+
+.top-9{
+  top: 9px;
+}
+
+.right-9{
+  right: 9px;
+}
+
+.bottom-9{
+  bottom: 9px;
+}
+
+.left-9{
+  left: 9px;
+}
+
+.top-10{
+  top: 10px;
+}
+
+.right-10{
+  right: 10px;
+}
+
+.bottom-10{
+  bottom: 10px;
+}
+
+.left-10{
+  left: 10px;
+}
+
+.top-1\/2{
+  top: 50%;
+}
+
+.right-1\/2{
+  right: 50%;
+}
+
+.bottom-1\/2{
+  bottom: 50%;
+}
+
+.left-1\/2{
+  left: 50%;
 }
 
 .resize-none{
@@ -10764,6 +11094,10 @@ html, body, #__next {
   --transform-rotate: -45deg;
 }
 
+.translate-x-0{
+  --transform-translate-x: 0;
+}
+
 .translate-x-1{
   --transform-translate-x: 0.25rem;
 }
@@ -10994,6 +11328,14 @@ html, body, #__next {
 
 .translate-x-full{
   --transform-translate-x: 100%;
+}
+
+.translate-x-minus-1\/2{
+  --transform-translate-x: -50%;
+}
+
+.translate-y-0{
+  --transform-translate-y: 0;
 }
 
 .translate-y-1{
@@ -11228,6 +11570,14 @@ html, body, #__next {
   --transform-translate-y: 100%;
 }
 
+.translate-y-minus-1\/2{
+  --transform-translate-y: -50%;
+}
+
+.hover\:translate-x-0:hover{
+  --transform-translate-x: 0;
+}
+
 .hover\:translate-x-1:hover{
   --transform-translate-x: 0.25rem;
 }
@@ -11458,6 +11808,14 @@ html, body, #__next {
 
 .hover\:translate-x-full:hover{
   --transform-translate-x: 100%;
+}
+
+.hover\:translate-x-minus-1\/2:hover{
+  --transform-translate-x: -50%;
+}
+
+.hover\:translate-y-0:hover{
+  --transform-translate-y: 0;
 }
 
 .hover\:translate-y-1:hover{
@@ -11692,6 +12050,14 @@ html, body, #__next {
   --transform-translate-y: 100%;
 }
 
+.hover\:translate-y-minus-1\/2:hover{
+  --transform-translate-y: -50%;
+}
+
+.focus\:translate-x-0:focus{
+  --transform-translate-x: 0;
+}
+
 .focus\:translate-x-1:focus{
   --transform-translate-x: 0.25rem;
 }
@@ -11924,6 +12290,14 @@ html, body, #__next {
   --transform-translate-x: 100%;
 }
 
+.focus\:translate-x-minus-1\/2:focus{
+  --transform-translate-x: -50%;
+}
+
+.focus\:translate-y-0:focus{
+  --transform-translate-y: 0;
+}
+
 .focus\:translate-y-1:focus{
   --transform-translate-y: 0.25rem;
 }
@@ -12154,6 +12528,10 @@ html, body, #__next {
 
 .focus\:translate-y-full:focus{
   --transform-translate-y: 100%;
+}
+
+.focus\:translate-y-minus-1\/2:focus{
+  --transform-translate-y: -50%;
 }
 
 .skew-x-0{
@@ -20127,11 +20505,81 @@ html, body, #__next {
     left: 0;
   }
 
-  .sm\:inset-auto{
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .sm\:inset-1{
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+  }
+
+  .sm\:inset-2{
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+  }
+
+  .sm\:inset-3{
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+  }
+
+  .sm\:inset-4{
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+  }
+
+  .sm\:inset-5{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+  }
+
+  .sm\:inset-6{
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px;
+  }
+
+  .sm\:inset-7{
+    top: 7px;
+    right: 7px;
+    bottom: 7px;
+    left: 7px;
+  }
+
+  .sm\:inset-8{
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .sm\:inset-9{
+    top: 9px;
+    right: 9px;
+    bottom: 9px;
+    left: 9px;
+  }
+
+  .sm\:inset-10{
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .sm\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
   }
 
   .sm\:inset-y-0{
@@ -20144,14 +20592,114 @@ html, body, #__next {
     left: 0;
   }
 
-  .sm\:inset-y-auto{
-    top: auto;
-    bottom: auto;
+  .sm\:inset-y-1{
+    top: 1px;
+    bottom: 1px;
   }
 
-  .sm\:inset-x-auto{
-    right: auto;
-    left: auto;
+  .sm\:inset-x-1{
+    right: 1px;
+    left: 1px;
+  }
+
+  .sm\:inset-y-2{
+    top: 2px;
+    bottom: 2px;
+  }
+
+  .sm\:inset-x-2{
+    right: 2px;
+    left: 2px;
+  }
+
+  .sm\:inset-y-3{
+    top: 3px;
+    bottom: 3px;
+  }
+
+  .sm\:inset-x-3{
+    right: 3px;
+    left: 3px;
+  }
+
+  .sm\:inset-y-4{
+    top: 4px;
+    bottom: 4px;
+  }
+
+  .sm\:inset-x-4{
+    right: 4px;
+    left: 4px;
+  }
+
+  .sm\:inset-y-5{
+    top: 5px;
+    bottom: 5px;
+  }
+
+  .sm\:inset-x-5{
+    right: 5px;
+    left: 5px;
+  }
+
+  .sm\:inset-y-6{
+    top: 6px;
+    bottom: 6px;
+  }
+
+  .sm\:inset-x-6{
+    right: 6px;
+    left: 6px;
+  }
+
+  .sm\:inset-y-7{
+    top: 7px;
+    bottom: 7px;
+  }
+
+  .sm\:inset-x-7{
+    right: 7px;
+    left: 7px;
+  }
+
+  .sm\:inset-y-8{
+    top: 8px;
+    bottom: 8px;
+  }
+
+  .sm\:inset-x-8{
+    right: 8px;
+    left: 8px;
+  }
+
+  .sm\:inset-y-9{
+    top: 9px;
+    bottom: 9px;
+  }
+
+  .sm\:inset-x-9{
+    right: 9px;
+    left: 9px;
+  }
+
+  .sm\:inset-y-10{
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .sm\:inset-x-10{
+    right: 10px;
+    left: 10px;
+  }
+
+  .sm\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .sm\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
   }
 
   .sm\:top-0{
@@ -20170,20 +20718,180 @@ html, body, #__next {
     left: 0;
   }
 
-  .sm\:top-auto{
-    top: auto;
+  .sm\:top-1{
+    top: 1px;
   }
 
-  .sm\:right-auto{
-    right: auto;
+  .sm\:right-1{
+    right: 1px;
   }
 
-  .sm\:bottom-auto{
-    bottom: auto;
+  .sm\:bottom-1{
+    bottom: 1px;
   }
 
-  .sm\:left-auto{
-    left: auto;
+  .sm\:left-1{
+    left: 1px;
+  }
+
+  .sm\:top-2{
+    top: 2px;
+  }
+
+  .sm\:right-2{
+    right: 2px;
+  }
+
+  .sm\:bottom-2{
+    bottom: 2px;
+  }
+
+  .sm\:left-2{
+    left: 2px;
+  }
+
+  .sm\:top-3{
+    top: 3px;
+  }
+
+  .sm\:right-3{
+    right: 3px;
+  }
+
+  .sm\:bottom-3{
+    bottom: 3px;
+  }
+
+  .sm\:left-3{
+    left: 3px;
+  }
+
+  .sm\:top-4{
+    top: 4px;
+  }
+
+  .sm\:right-4{
+    right: 4px;
+  }
+
+  .sm\:bottom-4{
+    bottom: 4px;
+  }
+
+  .sm\:left-4{
+    left: 4px;
+  }
+
+  .sm\:top-5{
+    top: 5px;
+  }
+
+  .sm\:right-5{
+    right: 5px;
+  }
+
+  .sm\:bottom-5{
+    bottom: 5px;
+  }
+
+  .sm\:left-5{
+    left: 5px;
+  }
+
+  .sm\:top-6{
+    top: 6px;
+  }
+
+  .sm\:right-6{
+    right: 6px;
+  }
+
+  .sm\:bottom-6{
+    bottom: 6px;
+  }
+
+  .sm\:left-6{
+    left: 6px;
+  }
+
+  .sm\:top-7{
+    top: 7px;
+  }
+
+  .sm\:right-7{
+    right: 7px;
+  }
+
+  .sm\:bottom-7{
+    bottom: 7px;
+  }
+
+  .sm\:left-7{
+    left: 7px;
+  }
+
+  .sm\:top-8{
+    top: 8px;
+  }
+
+  .sm\:right-8{
+    right: 8px;
+  }
+
+  .sm\:bottom-8{
+    bottom: 8px;
+  }
+
+  .sm\:left-8{
+    left: 8px;
+  }
+
+  .sm\:top-9{
+    top: 9px;
+  }
+
+  .sm\:right-9{
+    right: 9px;
+  }
+
+  .sm\:bottom-9{
+    bottom: 9px;
+  }
+
+  .sm\:left-9{
+    left: 9px;
+  }
+
+  .sm\:top-10{
+    top: 10px;
+  }
+
+  .sm\:right-10{
+    right: 10px;
+  }
+
+  .sm\:bottom-10{
+    bottom: 10px;
+  }
+
+  .sm\:left-10{
+    left: 10px;
+  }
+
+  .sm\:top-1\/2{
+    top: 50%;
+  }
+
+  .sm\:right-1\/2{
+    right: 50%;
+  }
+
+  .sm\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .sm\:left-1\/2{
+    left: 50%;
   }
 
   .sm\:resize-none{
@@ -22474,6 +23182,10 @@ html, body, #__next {
     --transform-rotate: -45deg;
   }
 
+  .sm\:translate-x-0{
+    --transform-translate-x: 0;
+  }
+
   .sm\:translate-x-1{
     --transform-translate-x: 0.25rem;
   }
@@ -22704,6 +23416,14 @@ html, body, #__next {
 
   .sm\:translate-x-full{
     --transform-translate-x: 100%;
+  }
+
+  .sm\:translate-x-minus-1\/2{
+    --transform-translate-x: -50%;
+  }
+
+  .sm\:translate-y-0{
+    --transform-translate-y: 0;
   }
 
   .sm\:translate-y-1{
@@ -22938,6 +23658,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .sm\:translate-y-minus-1\/2{
+    --transform-translate-y: -50%;
+  }
+
+  .sm\:hover\:translate-x-0:hover{
+    --transform-translate-x: 0;
+  }
+
   .sm\:hover\:translate-x-1:hover{
     --transform-translate-x: 0.25rem;
   }
@@ -23168,6 +23896,14 @@ html, body, #__next {
 
   .sm\:hover\:translate-x-full:hover{
     --transform-translate-x: 100%;
+  }
+
+  .sm\:hover\:translate-x-minus-1\/2:hover{
+    --transform-translate-x: -50%;
+  }
+
+  .sm\:hover\:translate-y-0:hover{
+    --transform-translate-y: 0;
   }
 
   .sm\:hover\:translate-y-1:hover{
@@ -23402,6 +24138,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .sm\:hover\:translate-y-minus-1\/2:hover{
+    --transform-translate-y: -50%;
+  }
+
+  .sm\:focus\:translate-x-0:focus{
+    --transform-translate-x: 0;
+  }
+
   .sm\:focus\:translate-x-1:focus{
     --transform-translate-x: 0.25rem;
   }
@@ -23634,6 +24378,14 @@ html, body, #__next {
     --transform-translate-x: 100%;
   }
 
+  .sm\:focus\:translate-x-minus-1\/2:focus{
+    --transform-translate-x: -50%;
+  }
+
+  .sm\:focus\:translate-y-0:focus{
+    --transform-translate-y: 0;
+  }
+
   .sm\:focus\:translate-y-1:focus{
     --transform-translate-y: 0.25rem;
   }
@@ -23864,6 +24616,10 @@ html, body, #__next {
 
   .sm\:focus\:translate-y-full:focus{
     --transform-translate-y: 100%;
+  }
+
+  .sm\:focus\:translate-y-minus-1\/2:focus{
+    --transform-translate-y: -50%;
   }
 
   .sm\:skew-x-0{
@@ -31838,11 +32594,81 @@ html, body, #__next {
     left: 0;
   }
 
-  .md\:inset-auto{
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .md\:inset-1{
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+  }
+
+  .md\:inset-2{
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+  }
+
+  .md\:inset-3{
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+  }
+
+  .md\:inset-4{
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+  }
+
+  .md\:inset-5{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+  }
+
+  .md\:inset-6{
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px;
+  }
+
+  .md\:inset-7{
+    top: 7px;
+    right: 7px;
+    bottom: 7px;
+    left: 7px;
+  }
+
+  .md\:inset-8{
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .md\:inset-9{
+    top: 9px;
+    right: 9px;
+    bottom: 9px;
+    left: 9px;
+  }
+
+  .md\:inset-10{
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .md\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
   }
 
   .md\:inset-y-0{
@@ -31855,14 +32681,114 @@ html, body, #__next {
     left: 0;
   }
 
-  .md\:inset-y-auto{
-    top: auto;
-    bottom: auto;
+  .md\:inset-y-1{
+    top: 1px;
+    bottom: 1px;
   }
 
-  .md\:inset-x-auto{
-    right: auto;
-    left: auto;
+  .md\:inset-x-1{
+    right: 1px;
+    left: 1px;
+  }
+
+  .md\:inset-y-2{
+    top: 2px;
+    bottom: 2px;
+  }
+
+  .md\:inset-x-2{
+    right: 2px;
+    left: 2px;
+  }
+
+  .md\:inset-y-3{
+    top: 3px;
+    bottom: 3px;
+  }
+
+  .md\:inset-x-3{
+    right: 3px;
+    left: 3px;
+  }
+
+  .md\:inset-y-4{
+    top: 4px;
+    bottom: 4px;
+  }
+
+  .md\:inset-x-4{
+    right: 4px;
+    left: 4px;
+  }
+
+  .md\:inset-y-5{
+    top: 5px;
+    bottom: 5px;
+  }
+
+  .md\:inset-x-5{
+    right: 5px;
+    left: 5px;
+  }
+
+  .md\:inset-y-6{
+    top: 6px;
+    bottom: 6px;
+  }
+
+  .md\:inset-x-6{
+    right: 6px;
+    left: 6px;
+  }
+
+  .md\:inset-y-7{
+    top: 7px;
+    bottom: 7px;
+  }
+
+  .md\:inset-x-7{
+    right: 7px;
+    left: 7px;
+  }
+
+  .md\:inset-y-8{
+    top: 8px;
+    bottom: 8px;
+  }
+
+  .md\:inset-x-8{
+    right: 8px;
+    left: 8px;
+  }
+
+  .md\:inset-y-9{
+    top: 9px;
+    bottom: 9px;
+  }
+
+  .md\:inset-x-9{
+    right: 9px;
+    left: 9px;
+  }
+
+  .md\:inset-y-10{
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .md\:inset-x-10{
+    right: 10px;
+    left: 10px;
+  }
+
+  .md\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .md\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
   }
 
   .md\:top-0{
@@ -31881,20 +32807,180 @@ html, body, #__next {
     left: 0;
   }
 
-  .md\:top-auto{
-    top: auto;
+  .md\:top-1{
+    top: 1px;
   }
 
-  .md\:right-auto{
-    right: auto;
+  .md\:right-1{
+    right: 1px;
   }
 
-  .md\:bottom-auto{
-    bottom: auto;
+  .md\:bottom-1{
+    bottom: 1px;
   }
 
-  .md\:left-auto{
-    left: auto;
+  .md\:left-1{
+    left: 1px;
+  }
+
+  .md\:top-2{
+    top: 2px;
+  }
+
+  .md\:right-2{
+    right: 2px;
+  }
+
+  .md\:bottom-2{
+    bottom: 2px;
+  }
+
+  .md\:left-2{
+    left: 2px;
+  }
+
+  .md\:top-3{
+    top: 3px;
+  }
+
+  .md\:right-3{
+    right: 3px;
+  }
+
+  .md\:bottom-3{
+    bottom: 3px;
+  }
+
+  .md\:left-3{
+    left: 3px;
+  }
+
+  .md\:top-4{
+    top: 4px;
+  }
+
+  .md\:right-4{
+    right: 4px;
+  }
+
+  .md\:bottom-4{
+    bottom: 4px;
+  }
+
+  .md\:left-4{
+    left: 4px;
+  }
+
+  .md\:top-5{
+    top: 5px;
+  }
+
+  .md\:right-5{
+    right: 5px;
+  }
+
+  .md\:bottom-5{
+    bottom: 5px;
+  }
+
+  .md\:left-5{
+    left: 5px;
+  }
+
+  .md\:top-6{
+    top: 6px;
+  }
+
+  .md\:right-6{
+    right: 6px;
+  }
+
+  .md\:bottom-6{
+    bottom: 6px;
+  }
+
+  .md\:left-6{
+    left: 6px;
+  }
+
+  .md\:top-7{
+    top: 7px;
+  }
+
+  .md\:right-7{
+    right: 7px;
+  }
+
+  .md\:bottom-7{
+    bottom: 7px;
+  }
+
+  .md\:left-7{
+    left: 7px;
+  }
+
+  .md\:top-8{
+    top: 8px;
+  }
+
+  .md\:right-8{
+    right: 8px;
+  }
+
+  .md\:bottom-8{
+    bottom: 8px;
+  }
+
+  .md\:left-8{
+    left: 8px;
+  }
+
+  .md\:top-9{
+    top: 9px;
+  }
+
+  .md\:right-9{
+    right: 9px;
+  }
+
+  .md\:bottom-9{
+    bottom: 9px;
+  }
+
+  .md\:left-9{
+    left: 9px;
+  }
+
+  .md\:top-10{
+    top: 10px;
+  }
+
+  .md\:right-10{
+    right: 10px;
+  }
+
+  .md\:bottom-10{
+    bottom: 10px;
+  }
+
+  .md\:left-10{
+    left: 10px;
+  }
+
+  .md\:top-1\/2{
+    top: 50%;
+  }
+
+  .md\:right-1\/2{
+    right: 50%;
+  }
+
+  .md\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .md\:left-1\/2{
+    left: 50%;
   }
 
   .md\:resize-none{
@@ -34185,6 +35271,10 @@ html, body, #__next {
     --transform-rotate: -45deg;
   }
 
+  .md\:translate-x-0{
+    --transform-translate-x: 0;
+  }
+
   .md\:translate-x-1{
     --transform-translate-x: 0.25rem;
   }
@@ -34415,6 +35505,14 @@ html, body, #__next {
 
   .md\:translate-x-full{
     --transform-translate-x: 100%;
+  }
+
+  .md\:translate-x-minus-1\/2{
+    --transform-translate-x: -50%;
+  }
+
+  .md\:translate-y-0{
+    --transform-translate-y: 0;
   }
 
   .md\:translate-y-1{
@@ -34649,6 +35747,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .md\:translate-y-minus-1\/2{
+    --transform-translate-y: -50%;
+  }
+
+  .md\:hover\:translate-x-0:hover{
+    --transform-translate-x: 0;
+  }
+
   .md\:hover\:translate-x-1:hover{
     --transform-translate-x: 0.25rem;
   }
@@ -34879,6 +35985,14 @@ html, body, #__next {
 
   .md\:hover\:translate-x-full:hover{
     --transform-translate-x: 100%;
+  }
+
+  .md\:hover\:translate-x-minus-1\/2:hover{
+    --transform-translate-x: -50%;
+  }
+
+  .md\:hover\:translate-y-0:hover{
+    --transform-translate-y: 0;
   }
 
   .md\:hover\:translate-y-1:hover{
@@ -35113,6 +36227,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .md\:hover\:translate-y-minus-1\/2:hover{
+    --transform-translate-y: -50%;
+  }
+
+  .md\:focus\:translate-x-0:focus{
+    --transform-translate-x: 0;
+  }
+
   .md\:focus\:translate-x-1:focus{
     --transform-translate-x: 0.25rem;
   }
@@ -35345,6 +36467,14 @@ html, body, #__next {
     --transform-translate-x: 100%;
   }
 
+  .md\:focus\:translate-x-minus-1\/2:focus{
+    --transform-translate-x: -50%;
+  }
+
+  .md\:focus\:translate-y-0:focus{
+    --transform-translate-y: 0;
+  }
+
   .md\:focus\:translate-y-1:focus{
     --transform-translate-y: 0.25rem;
   }
@@ -35575,6 +36705,10 @@ html, body, #__next {
 
   .md\:focus\:translate-y-full:focus{
     --transform-translate-y: 100%;
+  }
+
+  .md\:focus\:translate-y-minus-1\/2:focus{
+    --transform-translate-y: -50%;
   }
 
   .md\:skew-x-0{
@@ -43549,11 +44683,81 @@ html, body, #__next {
     left: 0;
   }
 
-  .lg\:inset-auto{
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .lg\:inset-1{
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+  }
+
+  .lg\:inset-2{
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+  }
+
+  .lg\:inset-3{
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+  }
+
+  .lg\:inset-4{
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+  }
+
+  .lg\:inset-5{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+  }
+
+  .lg\:inset-6{
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px;
+  }
+
+  .lg\:inset-7{
+    top: 7px;
+    right: 7px;
+    bottom: 7px;
+    left: 7px;
+  }
+
+  .lg\:inset-8{
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .lg\:inset-9{
+    top: 9px;
+    right: 9px;
+    bottom: 9px;
+    left: 9px;
+  }
+
+  .lg\:inset-10{
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .lg\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
   }
 
   .lg\:inset-y-0{
@@ -43566,14 +44770,114 @@ html, body, #__next {
     left: 0;
   }
 
-  .lg\:inset-y-auto{
-    top: auto;
-    bottom: auto;
+  .lg\:inset-y-1{
+    top: 1px;
+    bottom: 1px;
   }
 
-  .lg\:inset-x-auto{
-    right: auto;
-    left: auto;
+  .lg\:inset-x-1{
+    right: 1px;
+    left: 1px;
+  }
+
+  .lg\:inset-y-2{
+    top: 2px;
+    bottom: 2px;
+  }
+
+  .lg\:inset-x-2{
+    right: 2px;
+    left: 2px;
+  }
+
+  .lg\:inset-y-3{
+    top: 3px;
+    bottom: 3px;
+  }
+
+  .lg\:inset-x-3{
+    right: 3px;
+    left: 3px;
+  }
+
+  .lg\:inset-y-4{
+    top: 4px;
+    bottom: 4px;
+  }
+
+  .lg\:inset-x-4{
+    right: 4px;
+    left: 4px;
+  }
+
+  .lg\:inset-y-5{
+    top: 5px;
+    bottom: 5px;
+  }
+
+  .lg\:inset-x-5{
+    right: 5px;
+    left: 5px;
+  }
+
+  .lg\:inset-y-6{
+    top: 6px;
+    bottom: 6px;
+  }
+
+  .lg\:inset-x-6{
+    right: 6px;
+    left: 6px;
+  }
+
+  .lg\:inset-y-7{
+    top: 7px;
+    bottom: 7px;
+  }
+
+  .lg\:inset-x-7{
+    right: 7px;
+    left: 7px;
+  }
+
+  .lg\:inset-y-8{
+    top: 8px;
+    bottom: 8px;
+  }
+
+  .lg\:inset-x-8{
+    right: 8px;
+    left: 8px;
+  }
+
+  .lg\:inset-y-9{
+    top: 9px;
+    bottom: 9px;
+  }
+
+  .lg\:inset-x-9{
+    right: 9px;
+    left: 9px;
+  }
+
+  .lg\:inset-y-10{
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .lg\:inset-x-10{
+    right: 10px;
+    left: 10px;
+  }
+
+  .lg\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .lg\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
   }
 
   .lg\:top-0{
@@ -43592,20 +44896,180 @@ html, body, #__next {
     left: 0;
   }
 
-  .lg\:top-auto{
-    top: auto;
+  .lg\:top-1{
+    top: 1px;
   }
 
-  .lg\:right-auto{
-    right: auto;
+  .lg\:right-1{
+    right: 1px;
   }
 
-  .lg\:bottom-auto{
-    bottom: auto;
+  .lg\:bottom-1{
+    bottom: 1px;
   }
 
-  .lg\:left-auto{
-    left: auto;
+  .lg\:left-1{
+    left: 1px;
+  }
+
+  .lg\:top-2{
+    top: 2px;
+  }
+
+  .lg\:right-2{
+    right: 2px;
+  }
+
+  .lg\:bottom-2{
+    bottom: 2px;
+  }
+
+  .lg\:left-2{
+    left: 2px;
+  }
+
+  .lg\:top-3{
+    top: 3px;
+  }
+
+  .lg\:right-3{
+    right: 3px;
+  }
+
+  .lg\:bottom-3{
+    bottom: 3px;
+  }
+
+  .lg\:left-3{
+    left: 3px;
+  }
+
+  .lg\:top-4{
+    top: 4px;
+  }
+
+  .lg\:right-4{
+    right: 4px;
+  }
+
+  .lg\:bottom-4{
+    bottom: 4px;
+  }
+
+  .lg\:left-4{
+    left: 4px;
+  }
+
+  .lg\:top-5{
+    top: 5px;
+  }
+
+  .lg\:right-5{
+    right: 5px;
+  }
+
+  .lg\:bottom-5{
+    bottom: 5px;
+  }
+
+  .lg\:left-5{
+    left: 5px;
+  }
+
+  .lg\:top-6{
+    top: 6px;
+  }
+
+  .lg\:right-6{
+    right: 6px;
+  }
+
+  .lg\:bottom-6{
+    bottom: 6px;
+  }
+
+  .lg\:left-6{
+    left: 6px;
+  }
+
+  .lg\:top-7{
+    top: 7px;
+  }
+
+  .lg\:right-7{
+    right: 7px;
+  }
+
+  .lg\:bottom-7{
+    bottom: 7px;
+  }
+
+  .lg\:left-7{
+    left: 7px;
+  }
+
+  .lg\:top-8{
+    top: 8px;
+  }
+
+  .lg\:right-8{
+    right: 8px;
+  }
+
+  .lg\:bottom-8{
+    bottom: 8px;
+  }
+
+  .lg\:left-8{
+    left: 8px;
+  }
+
+  .lg\:top-9{
+    top: 9px;
+  }
+
+  .lg\:right-9{
+    right: 9px;
+  }
+
+  .lg\:bottom-9{
+    bottom: 9px;
+  }
+
+  .lg\:left-9{
+    left: 9px;
+  }
+
+  .lg\:top-10{
+    top: 10px;
+  }
+
+  .lg\:right-10{
+    right: 10px;
+  }
+
+  .lg\:bottom-10{
+    bottom: 10px;
+  }
+
+  .lg\:left-10{
+    left: 10px;
+  }
+
+  .lg\:top-1\/2{
+    top: 50%;
+  }
+
+  .lg\:right-1\/2{
+    right: 50%;
+  }
+
+  .lg\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .lg\:left-1\/2{
+    left: 50%;
   }
 
   .lg\:resize-none{
@@ -45896,6 +47360,10 @@ html, body, #__next {
     --transform-rotate: -45deg;
   }
 
+  .lg\:translate-x-0{
+    --transform-translate-x: 0;
+  }
+
   .lg\:translate-x-1{
     --transform-translate-x: 0.25rem;
   }
@@ -46126,6 +47594,14 @@ html, body, #__next {
 
   .lg\:translate-x-full{
     --transform-translate-x: 100%;
+  }
+
+  .lg\:translate-x-minus-1\/2{
+    --transform-translate-x: -50%;
+  }
+
+  .lg\:translate-y-0{
+    --transform-translate-y: 0;
   }
 
   .lg\:translate-y-1{
@@ -46360,6 +47836,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .lg\:translate-y-minus-1\/2{
+    --transform-translate-y: -50%;
+  }
+
+  .lg\:hover\:translate-x-0:hover{
+    --transform-translate-x: 0;
+  }
+
   .lg\:hover\:translate-x-1:hover{
     --transform-translate-x: 0.25rem;
   }
@@ -46590,6 +48074,14 @@ html, body, #__next {
 
   .lg\:hover\:translate-x-full:hover{
     --transform-translate-x: 100%;
+  }
+
+  .lg\:hover\:translate-x-minus-1\/2:hover{
+    --transform-translate-x: -50%;
+  }
+
+  .lg\:hover\:translate-y-0:hover{
+    --transform-translate-y: 0;
   }
 
   .lg\:hover\:translate-y-1:hover{
@@ -46824,6 +48316,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .lg\:hover\:translate-y-minus-1\/2:hover{
+    --transform-translate-y: -50%;
+  }
+
+  .lg\:focus\:translate-x-0:focus{
+    --transform-translate-x: 0;
+  }
+
   .lg\:focus\:translate-x-1:focus{
     --transform-translate-x: 0.25rem;
   }
@@ -47056,6 +48556,14 @@ html, body, #__next {
     --transform-translate-x: 100%;
   }
 
+  .lg\:focus\:translate-x-minus-1\/2:focus{
+    --transform-translate-x: -50%;
+  }
+
+  .lg\:focus\:translate-y-0:focus{
+    --transform-translate-y: 0;
+  }
+
   .lg\:focus\:translate-y-1:focus{
     --transform-translate-y: 0.25rem;
   }
@@ -47286,6 +48794,10 @@ html, body, #__next {
 
   .lg\:focus\:translate-y-full:focus{
     --transform-translate-y: 100%;
+  }
+
+  .lg\:focus\:translate-y-minus-1\/2:focus{
+    --transform-translate-y: -50%;
   }
 
   .lg\:skew-x-0{
@@ -55260,11 +56772,81 @@ html, body, #__next {
     left: 0;
   }
 
-  .xl\:inset-auto{
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .xl\:inset-1{
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+  }
+
+  .xl\:inset-2{
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+  }
+
+  .xl\:inset-3{
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+  }
+
+  .xl\:inset-4{
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+  }
+
+  .xl\:inset-5{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+  }
+
+  .xl\:inset-6{
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px;
+  }
+
+  .xl\:inset-7{
+    top: 7px;
+    right: 7px;
+    bottom: 7px;
+    left: 7px;
+  }
+
+  .xl\:inset-8{
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .xl\:inset-9{
+    top: 9px;
+    right: 9px;
+    bottom: 9px;
+    left: 9px;
+  }
+
+  .xl\:inset-10{
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .xl\:inset-1\/2{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
   }
 
   .xl\:inset-y-0{
@@ -55277,14 +56859,114 @@ html, body, #__next {
     left: 0;
   }
 
-  .xl\:inset-y-auto{
-    top: auto;
-    bottom: auto;
+  .xl\:inset-y-1{
+    top: 1px;
+    bottom: 1px;
   }
 
-  .xl\:inset-x-auto{
-    right: auto;
-    left: auto;
+  .xl\:inset-x-1{
+    right: 1px;
+    left: 1px;
+  }
+
+  .xl\:inset-y-2{
+    top: 2px;
+    bottom: 2px;
+  }
+
+  .xl\:inset-x-2{
+    right: 2px;
+    left: 2px;
+  }
+
+  .xl\:inset-y-3{
+    top: 3px;
+    bottom: 3px;
+  }
+
+  .xl\:inset-x-3{
+    right: 3px;
+    left: 3px;
+  }
+
+  .xl\:inset-y-4{
+    top: 4px;
+    bottom: 4px;
+  }
+
+  .xl\:inset-x-4{
+    right: 4px;
+    left: 4px;
+  }
+
+  .xl\:inset-y-5{
+    top: 5px;
+    bottom: 5px;
+  }
+
+  .xl\:inset-x-5{
+    right: 5px;
+    left: 5px;
+  }
+
+  .xl\:inset-y-6{
+    top: 6px;
+    bottom: 6px;
+  }
+
+  .xl\:inset-x-6{
+    right: 6px;
+    left: 6px;
+  }
+
+  .xl\:inset-y-7{
+    top: 7px;
+    bottom: 7px;
+  }
+
+  .xl\:inset-x-7{
+    right: 7px;
+    left: 7px;
+  }
+
+  .xl\:inset-y-8{
+    top: 8px;
+    bottom: 8px;
+  }
+
+  .xl\:inset-x-8{
+    right: 8px;
+    left: 8px;
+  }
+
+  .xl\:inset-y-9{
+    top: 9px;
+    bottom: 9px;
+  }
+
+  .xl\:inset-x-9{
+    right: 9px;
+    left: 9px;
+  }
+
+  .xl\:inset-y-10{
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .xl\:inset-x-10{
+    right: 10px;
+    left: 10px;
+  }
+
+  .xl\:inset-y-1\/2{
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .xl\:inset-x-1\/2{
+    right: 50%;
+    left: 50%;
   }
 
   .xl\:top-0{
@@ -55303,20 +56985,180 @@ html, body, #__next {
     left: 0;
   }
 
-  .xl\:top-auto{
-    top: auto;
+  .xl\:top-1{
+    top: 1px;
   }
 
-  .xl\:right-auto{
-    right: auto;
+  .xl\:right-1{
+    right: 1px;
   }
 
-  .xl\:bottom-auto{
-    bottom: auto;
+  .xl\:bottom-1{
+    bottom: 1px;
   }
 
-  .xl\:left-auto{
-    left: auto;
+  .xl\:left-1{
+    left: 1px;
+  }
+
+  .xl\:top-2{
+    top: 2px;
+  }
+
+  .xl\:right-2{
+    right: 2px;
+  }
+
+  .xl\:bottom-2{
+    bottom: 2px;
+  }
+
+  .xl\:left-2{
+    left: 2px;
+  }
+
+  .xl\:top-3{
+    top: 3px;
+  }
+
+  .xl\:right-3{
+    right: 3px;
+  }
+
+  .xl\:bottom-3{
+    bottom: 3px;
+  }
+
+  .xl\:left-3{
+    left: 3px;
+  }
+
+  .xl\:top-4{
+    top: 4px;
+  }
+
+  .xl\:right-4{
+    right: 4px;
+  }
+
+  .xl\:bottom-4{
+    bottom: 4px;
+  }
+
+  .xl\:left-4{
+    left: 4px;
+  }
+
+  .xl\:top-5{
+    top: 5px;
+  }
+
+  .xl\:right-5{
+    right: 5px;
+  }
+
+  .xl\:bottom-5{
+    bottom: 5px;
+  }
+
+  .xl\:left-5{
+    left: 5px;
+  }
+
+  .xl\:top-6{
+    top: 6px;
+  }
+
+  .xl\:right-6{
+    right: 6px;
+  }
+
+  .xl\:bottom-6{
+    bottom: 6px;
+  }
+
+  .xl\:left-6{
+    left: 6px;
+  }
+
+  .xl\:top-7{
+    top: 7px;
+  }
+
+  .xl\:right-7{
+    right: 7px;
+  }
+
+  .xl\:bottom-7{
+    bottom: 7px;
+  }
+
+  .xl\:left-7{
+    left: 7px;
+  }
+
+  .xl\:top-8{
+    top: 8px;
+  }
+
+  .xl\:right-8{
+    right: 8px;
+  }
+
+  .xl\:bottom-8{
+    bottom: 8px;
+  }
+
+  .xl\:left-8{
+    left: 8px;
+  }
+
+  .xl\:top-9{
+    top: 9px;
+  }
+
+  .xl\:right-9{
+    right: 9px;
+  }
+
+  .xl\:bottom-9{
+    bottom: 9px;
+  }
+
+  .xl\:left-9{
+    left: 9px;
+  }
+
+  .xl\:top-10{
+    top: 10px;
+  }
+
+  .xl\:right-10{
+    right: 10px;
+  }
+
+  .xl\:bottom-10{
+    bottom: 10px;
+  }
+
+  .xl\:left-10{
+    left: 10px;
+  }
+
+  .xl\:top-1\/2{
+    top: 50%;
+  }
+
+  .xl\:right-1\/2{
+    right: 50%;
+  }
+
+  .xl\:bottom-1\/2{
+    bottom: 50%;
+  }
+
+  .xl\:left-1\/2{
+    left: 50%;
   }
 
   .xl\:resize-none{
@@ -57607,6 +59449,10 @@ html, body, #__next {
     --transform-rotate: -45deg;
   }
 
+  .xl\:translate-x-0{
+    --transform-translate-x: 0;
+  }
+
   .xl\:translate-x-1{
     --transform-translate-x: 0.25rem;
   }
@@ -57837,6 +59683,14 @@ html, body, #__next {
 
   .xl\:translate-x-full{
     --transform-translate-x: 100%;
+  }
+
+  .xl\:translate-x-minus-1\/2{
+    --transform-translate-x: -50%;
+  }
+
+  .xl\:translate-y-0{
+    --transform-translate-y: 0;
   }
 
   .xl\:translate-y-1{
@@ -58071,6 +59925,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .xl\:translate-y-minus-1\/2{
+    --transform-translate-y: -50%;
+  }
+
+  .xl\:hover\:translate-x-0:hover{
+    --transform-translate-x: 0;
+  }
+
   .xl\:hover\:translate-x-1:hover{
     --transform-translate-x: 0.25rem;
   }
@@ -58301,6 +60163,14 @@ html, body, #__next {
 
   .xl\:hover\:translate-x-full:hover{
     --transform-translate-x: 100%;
+  }
+
+  .xl\:hover\:translate-x-minus-1\/2:hover{
+    --transform-translate-x: -50%;
+  }
+
+  .xl\:hover\:translate-y-0:hover{
+    --transform-translate-y: 0;
   }
 
   .xl\:hover\:translate-y-1:hover{
@@ -58535,6 +60405,14 @@ html, body, #__next {
     --transform-translate-y: 100%;
   }
 
+  .xl\:hover\:translate-y-minus-1\/2:hover{
+    --transform-translate-y: -50%;
+  }
+
+  .xl\:focus\:translate-x-0:focus{
+    --transform-translate-x: 0;
+  }
+
   .xl\:focus\:translate-x-1:focus{
     --transform-translate-x: 0.25rem;
   }
@@ -58767,6 +60645,14 @@ html, body, #__next {
     --transform-translate-x: 100%;
   }
 
+  .xl\:focus\:translate-x-minus-1\/2:focus{
+    --transform-translate-x: -50%;
+  }
+
+  .xl\:focus\:translate-y-0:focus{
+    --transform-translate-y: 0;
+  }
+
   .xl\:focus\:translate-y-1:focus{
     --transform-translate-y: 0.25rem;
   }
@@ -58997,6 +60883,10 @@ html, body, #__next {
 
   .xl\:focus\:translate-y-full:focus{
     --transform-translate-y: 100%;
+  }
+
+  .xl\:focus\:translate-y-minus-1\/2:focus{
+    --transform-translate-y: -50%;
   }
 
   .xl\:skew-x-0{
