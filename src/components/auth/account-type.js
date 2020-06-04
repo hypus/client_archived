@@ -1,3 +1,4 @@
+import cls from 'classnames';
 import PropTypes from 'prop-types';
 
 import { Icon } from '@/common';
@@ -11,14 +12,15 @@ const propTypes = {
 
 const defaultProps = {};
 
+const classes = cls(
+  'flex items-center justify-between p-8 border border-light-75 shadow-sm rounded-2 cursor-pointer hover:border-primary-200 group',
+);
+
 function AccountType({
   extraClassName, icon, name, description, ...props
 }) {
   return (
-    <div
-      className="flex items-center justify-between p-8 border border-light-75 shadow-sm rounded-2 cursor-pointer hover:border-primary-200 group"
-      {...props}
-    >
+    <div className={cls(classes, extraClassName)} {...props}>
       <div className="flex items-center">
         <div className="mr-5 text-dark group-hover:text-primary-200">
           <Icon name={icon} size={32} />
