@@ -51,7 +51,9 @@ function AuthLayout({
                 {children}
               </div>
             ) : (
-              { children }
+              <div>
+                { children }
+              </div>
             )}
           </div>
         </div>
