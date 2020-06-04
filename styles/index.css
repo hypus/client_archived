@@ -11465,6 +11465,574 @@ html, body, #__next {
   color: rgba(11, 105, 255, var(--placeholder-opacity));
 }
 
+.hover\:placeholder-white:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-white:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-white:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-white:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-dark:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #1E1E1E;
+  color: rgba(30, 30, 30, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-dark:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #1E1E1E;
+  color: rgba(30, 30, 30, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-dark:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #1E1E1E;
+  color: rgba(30, 30, 30, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-dark:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #1E1E1E;
+  color: rgba(30, 30, 30, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-100:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #0071F4;
+  color: rgba(0, 113, 244, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-100:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #0071F4;
+  color: rgba(0, 113, 244, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-100:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #0071F4;
+  color: rgba(0, 113, 244, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-100:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #0071F4;
+  color: rgba(0, 113, 244, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-200:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #0765D3;
+  color: rgba(7, 101, 211, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-200:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #0765D3;
+  color: rgba(7, 101, 211, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-200:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #0765D3;
+  color: rgba(7, 101, 211, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-200:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #0765D3;
+  color: rgba(7, 101, 211, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-300:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #005CC8;
+  color: rgba(0, 92, 200, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-300:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #005CC8;
+  color: rgba(0, 92, 200, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-300:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #005CC8;
+  color: rgba(0, 92, 200, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-primary-300:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #005CC8;
+  color: rgba(0, 92, 200, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-50:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #F5F5F5;
+  color: rgba(245, 245, 245, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-50:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F5F5F5;
+  color: rgba(245, 245, 245, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-50:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F5F5F5;
+  color: rgba(245, 245, 245, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-50:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #F5F5F5;
+  color: rgba(245, 245, 245, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-75:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #F1F1F1;
+  color: rgba(241, 241, 241, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-75:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F1F1F1;
+  color: rgba(241, 241, 241, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-75:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F1F1F1;
+  color: rgba(241, 241, 241, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-75:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #F1F1F1;
+  color: rgba(241, 241, 241, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-100:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #EEF0F3;
+  color: rgba(238, 240, 243, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-100:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #EEF0F3;
+  color: rgba(238, 240, 243, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-100:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #EEF0F3;
+  color: rgba(238, 240, 243, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-100:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #EEF0F3;
+  color: rgba(238, 240, 243, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-200:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #D7DFE9;
+  color: rgba(215, 223, 233, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-200:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #D7DFE9;
+  color: rgba(215, 223, 233, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-200:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #D7DFE9;
+  color: rgba(215, 223, 233, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-200:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #D7DFE9;
+  color: rgba(215, 223, 233, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-300:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #C1CBD7;
+  color: rgba(193, 203, 215, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-300:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #C1CBD7;
+  color: rgba(193, 203, 215, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-300:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #C1CBD7;
+  color: rgba(193, 203, 215, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-300:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #C1CBD7;
+  color: rgba(193, 203, 215, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-400:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #b2b3b5;
+  color: rgba(178, 179, 181, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-400:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #b2b3b5;
+  color: rgba(178, 179, 181, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-400:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #b2b3b5;
+  color: rgba(178, 179, 181, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-light-400:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #b2b3b5;
+  color: rgba(178, 179, 181, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-100:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #26BF6A;
+  color: rgba(38, 191, 106, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-100:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #26BF6A;
+  color: rgba(38, 191, 106, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-100:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #26BF6A;
+  color: rgba(38, 191, 106, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-100:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #26BF6A;
+  color: rgba(38, 191, 106, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-200:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #2DCA73;
+  color: rgba(45, 202, 115, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-200:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #2DCA73;
+  color: rgba(45, 202, 115, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-200:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #2DCA73;
+  color: rgba(45, 202, 115, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-200:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #2DCA73;
+  color: rgba(45, 202, 115, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-300:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #1DB05F;
+  color: rgba(29, 176, 95, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-300:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #1DB05F;
+  color: rgba(29, 176, 95, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-300:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #1DB05F;
+  color: rgba(29, 176, 95, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-300:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #1DB05F;
+  color: rgba(29, 176, 95, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-400:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #F3FFF8;
+  color: rgba(243, 255, 248, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-400:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F3FFF8;
+  color: rgba(243, 255, 248, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-400:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F3FFF8;
+  color: rgba(243, 255, 248, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-success-400:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #F3FFF8;
+  color: rgba(243, 255, 248, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-100:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #F2AE00;
+  color: rgba(242, 174, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-100:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F2AE00;
+  color: rgba(242, 174, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-100:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #F2AE00;
+  color: rgba(242, 174, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-100:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #F2AE00;
+  color: rgba(242, 174, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-200:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFB800;
+  color: rgba(255, 184, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-200:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFB800;
+  color: rgba(255, 184, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-200:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFB800;
+  color: rgba(255, 184, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-200:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #FFB800;
+  color: rgba(255, 184, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-300:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #EAA800;
+  color: rgba(234, 168, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-300:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #EAA800;
+  color: rgba(234, 168, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-300:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #EAA800;
+  color: rgba(234, 168, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-300:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #EAA800;
+  color: rgba(234, 168, 0, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-400:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFF8E6;
+  color: rgba(255, 248, 230, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-400:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFF8E6;
+  color: rgba(255, 248, 230, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-400:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FFF8E6;
+  color: rgba(255, 248, 230, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-warning-400:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #FFF8E6;
+  color: rgba(255, 248, 230, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-100:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #EF0D36;
+  color: rgba(239, 13, 54, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-100:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #EF0D36;
+  color: rgba(239, 13, 54, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-100:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #EF0D36;
+  color: rgba(239, 13, 54, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-100:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #EF0D36;
+  color: rgba(239, 13, 54, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-200:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #FF0B37;
+  color: rgba(255, 11, 55, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-200:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FF0B37;
+  color: rgba(255, 11, 55, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-200:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #FF0B37;
+  color: rgba(255, 11, 55, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-200:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #FF0B37;
+  color: rgba(255, 11, 55, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-300:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #D7042A;
+  color: rgba(215, 4, 42, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-300:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #D7042A;
+  color: rgba(215, 4, 42, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-300:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #D7042A;
+  color: rgba(215, 4, 42, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-300:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #D7042A;
+  color: rgba(215, 4, 42, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-danger-400:hover::-moz-placeholder{
+  color: rgba(255, 11, 55, .05);
+}
+
+.hover\:placeholder-danger-400:hover:-ms-input-placeholder{
+  color: rgba(255, 11, 55, .05);
+}
+
+.hover\:placeholder-danger-400:hover::-ms-input-placeholder{
+  color: rgba(255, 11, 55, .05);
+}
+
+.hover\:placeholder-danger-400:hover::placeholder{
+  color: rgba(255, 11, 55, .05);
+}
+
+.hover\:placeholder-info:hover::-moz-placeholder{
+  --placeholder-opacity: 1;
+  color: #0b69ff;
+  color: rgba(11, 105, 255, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-info:hover:-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #0b69ff;
+  color: rgba(11, 105, 255, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-info:hover::-ms-input-placeholder{
+  --placeholder-opacity: 1;
+  color: #0b69ff;
+  color: rgba(11, 105, 255, var(--placeholder-opacity));
+}
+
+.hover\:placeholder-info:hover::placeholder{
+  --placeholder-opacity: 1;
+  color: #0b69ff;
+  color: rgba(11, 105, 255, var(--placeholder-opacity));
+}
+
 .focus\:placeholder-white:focus::-moz-placeholder{
   --placeholder-opacity: 1;
   color: #FFFFFF;
@@ -27712,6 +28280,574 @@ html, body, #__next {
   }
 
   .sm\:placeholder-info::placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-white:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-white:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-white:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-white:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-dark:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-dark:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-dark:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-dark:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-primary-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-50:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-50:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-50:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-50:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-75:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-75:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-75:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-75:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-light-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-success-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-warning-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-danger-400:hover::-moz-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .sm\:hover\:placeholder-danger-400:hover:-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .sm\:hover\:placeholder-danger-400:hover::-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .sm\:hover\:placeholder-danger-400:hover::placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .sm\:hover\:placeholder-info:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-info:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-info:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .sm\:hover\:placeholder-info:hover::placeholder{
     --placeholder-opacity: 1;
     color: #0b69ff;
     color: rgba(11, 105, 255, var(--placeholder-opacity));
@@ -43970,6 +45106,574 @@ html, body, #__next {
     color: rgba(11, 105, 255, var(--placeholder-opacity));
   }
 
+  .md\:hover\:placeholder-white:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-white:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-white:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-white:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-dark:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-dark:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-dark:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-dark:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-primary-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-50:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-50:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-50:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-50:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-75:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-75:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-75:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-75:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-light-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-success-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-warning-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-danger-400:hover::-moz-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .md\:hover\:placeholder-danger-400:hover:-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .md\:hover\:placeholder-danger-400:hover::-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .md\:hover\:placeholder-danger-400:hover::placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .md\:hover\:placeholder-info:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-info:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-info:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .md\:hover\:placeholder-info:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
   .md\:focus\:placeholder-white:focus::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #FFFFFF;
@@ -60223,6 +61927,574 @@ html, body, #__next {
     color: rgba(11, 105, 255, var(--placeholder-opacity));
   }
 
+  .lg\:hover\:placeholder-white:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-white:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-white:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-white:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-dark:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-dark:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-dark:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-dark:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-primary-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-50:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-50:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-50:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-50:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-75:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-75:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-75:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-75:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-light-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-success-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-warning-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-danger-400:hover::-moz-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .lg\:hover\:placeholder-danger-400:hover:-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .lg\:hover\:placeholder-danger-400:hover::-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .lg\:hover\:placeholder-danger-400:hover::placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .lg\:hover\:placeholder-info:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-info:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-info:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .lg\:hover\:placeholder-info:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
   .lg\:focus\:placeholder-white:focus::-moz-placeholder{
     --placeholder-opacity: 1;
     color: #FFFFFF;
@@ -76471,6 +78743,574 @@ html, body, #__next {
   }
 
   .xl\:placeholder-info::placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-white:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-white:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-white:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-white:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-dark:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-dark:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-dark:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-dark:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1E1E1E;
+    color: rgba(30, 30, 30, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0071F4;
+    color: rgba(0, 113, 244, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #0765D3;
+    color: rgba(7, 101, 211, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-primary-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #005CC8;
+    color: rgba(0, 92, 200, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-50:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-50:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-50:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-50:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F5F5F5;
+    color: rgba(245, 245, 245, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-75:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-75:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-75:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-75:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F1F1F1;
+    color: rgba(241, 241, 241, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EEF0F3;
+    color: rgba(238, 240, 243, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7DFE9;
+    color: rgba(215, 223, 233, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #C1CBD7;
+    color: rgba(193, 203, 215, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-light-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #b2b3b5;
+    color: rgba(178, 179, 181, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #26BF6A;
+    color: rgba(38, 191, 106, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #2DCA73;
+    color: rgba(45, 202, 115, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #1DB05F;
+    color: rgba(29, 176, 95, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-success-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F3FFF8;
+    color: rgba(243, 255, 248, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #F2AE00;
+    color: rgba(242, 174, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFB800;
+    color: rgba(255, 184, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EAA800;
+    color: rgba(234, 168, 0, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-400:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-400:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-400:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-warning-400:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FFF8E6;
+    color: rgba(255, 248, 230, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-100:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-100:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-100:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-100:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #EF0D36;
+    color: rgba(239, 13, 54, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-200:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-200:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-200:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-200:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #FF0B37;
+    color: rgba(255, 11, 55, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-300:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-300:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-300:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-300:hover::placeholder{
+    --placeholder-opacity: 1;
+    color: #D7042A;
+    color: rgba(215, 4, 42, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-danger-400:hover::-moz-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .xl\:hover\:placeholder-danger-400:hover:-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .xl\:hover\:placeholder-danger-400:hover::-ms-input-placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .xl\:hover\:placeholder-danger-400:hover::placeholder{
+    color: rgba(255, 11, 55, .05);
+  }
+
+  .xl\:hover\:placeholder-info:hover::-moz-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-info:hover:-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-info:hover::-ms-input-placeholder{
+    --placeholder-opacity: 1;
+    color: #0b69ff;
+    color: rgba(11, 105, 255, var(--placeholder-opacity));
+  }
+
+  .xl\:hover\:placeholder-info:hover::placeholder{
     --placeholder-opacity: 1;
     color: #0b69ff;
     color: rgba(11, 105, 255, var(--placeholder-opacity));
